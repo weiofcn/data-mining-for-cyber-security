@@ -1,0 +1,3035 @@
+From: =?gb2312?B?0tHTySBJbnRlcm5ldCBFeHBsb3JlciAxMSCxo7Tm?=
+Subject: Papers - 7th USENIX Security Symposium, 1998
+Date: Wed, 26 Aug 2015 12:07:39 -0400
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01D0DFF7.CDD07010"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01D0DFF7.CDD07010
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.usenix.org/legacy/publications/library/proceedings/sec98/full_papers/full_papers/lee/lee_html/lee.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><META content=3D"IE=3D5.0000" =
+http-equiv=3D"X-UA-Compatible">
+
+<SCRIPT =
+type=3D"text/javascript">window.NREUM||(NREUM=3D{}),__nr_require=3Dfuncti=
+on(e,n,t){function r(t){if(!n[t]){var =
+o=3Dn[t]=3D{exports:{}};e[t][0].call(o.exports,function(n){var =
+o=3De[t][1][n];return r(o?o:n)},o,o.exports)}return =
+n[t].exports}if("function"=3D=3Dtypeof __nr_require)return =
+__nr_require;for(var o=3D0;o<t.length;o++)r(t[o]);return =
+r}({QJf3ax:[function(e,n){function t(e){function =
+n(n,t,a){e&&e(n,t,a),a||(a=3D{});for(var =
+u=3Dc(n),f=3Du.length,s=3Di(a,o,r),p=3D0;f>p;p++)u[p].apply(s,t);return =
+s}function a(e,n){f[e]=3Dc(e).concat(n)}function c(e){return =
+f[e]||[]}function u(){return t(n)}var =
+f=3D{};return{on:a,emit:n,create:u,listeners:c,_events:f}}function =
+r(){return{}}var =
+o=3D"nr@context",i=3De("gos");n.exports=3Dt()},{gos:"7eSDFh"}],ee:[functi=
+on(e,n){n.exports=3De("QJf3ax")},{}],3:[function(e,n){function =
+t(e){return function(){r(e,[(new =
+Date).getTime()].concat(i(arguments)))}}var =
+r=3De("handle"),o=3De(1),i=3De(2);"undefined"=3D=3Dtypeof =
+window.newrelic&&(newrelic=3Dwindow.NREUM);var =
+a=3D["setPageViewName","addPageAction","setCustomAttribute","finished","a=
+ddToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=3D=
+t("api-"+n)}),n.exports=3Dwindow.NREUM},{1:12,2:13,handle:"D5DuLP"}],"7eS=
+DFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var =
+o=3Dt();if(Object.defineProperty&&Object.keys)try{return =
+Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i)=
+{}return e[n]=3Do,o}var =
+r=3DObject.prototype.hasOwnProperty;n.exports=3Dt},{}],gos:[function(e,n)=
+{n.exports=3De("7eSDFh")},{}],handle:[function(e,n){n.exports=3De("D5DuLP=
+")},{}],D5DuLP:[function(e,n){function t(e,n,t){return =
+r.listeners(e).length?r.emit(e,n,t):(o[e]||(o[e]=3D[]),void =
+o[e].push(n))}var =
+r=3De("ee").create(),o=3D{};n.exports=3Dt,t.ee=3Dr,r.q=3Do},{ee:"QJf3ax"}=
+],id:[function(e,n){n.exports=3De("XL7HBI")},{}],XL7HBI:[function(e,n){fu=
+nction t(e){var n=3Dtypeof =
+e;return!e||"object"!=3D=3Dn&&"function"!=3D=3Dn?-1:e=3D=3D=3Dwindow?0:i(=
+e,o,function(){return r++})}var =
+r=3D1,o=3D"nr@id",i=3De("gos");n.exports=3Dt},{gos:"7eSDFh"}],G9z0Bl:[fun=
+ction(e,n){function t(){var =
+e=3Dd.info=3DNREUM.info,n=3Df.getElementsByTagName("script")[0];if(e&&e.l=
+icenseKey&&e.applicationID&&n){c(p,function(n,t){n in =
+e||(e[n]=3Dt)});var =
+t=3D"https"=3D=3D=3Ds.split(":")[0]||e.sslForHttp;d.proto=3Dt?"https://":=
+"http://",a("mark",["onload",i()]);var =
+r=3Df.createElement("script");r.src=3Dd.proto+e.agent,n.parentNode.insert=
+Before(r,n)}}function r(){"complete"=3D=3D=3Df.readyState&&o()}function =
+o(){a("mark",["domContent",i()])}function i(){return(new =
+Date).getTime()}var =
+a=3De("handle"),c=3De(1),u=3D(e(2),window),f=3Du.document,s=3D(""+locatio=
+n).split("?")[0],p=3D{beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.n=
+et",agent:"js-agent.newrelic.com/nr-632.min.js"},d=3Dn.exports=3D{offset:=
+i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMCont=
+entLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onready=
+statechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{=
+1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=3De("G9z0Bl")}=
+,{}],12:[function(e,n){function t(e,n){var t=3D[],o=3D"",i=3D0;for(o in =
+e)r.call(e,o)&&(t[i]=3Dn(o,e[o]),i+=3D1);return t}var =
+r=3DObject.prototype.hasOwnProperty;n.exports=3Dt},{}],13:[function(e,n){=
+function t(e,n,t){n||(n=3D0),"undefined"=3D=3Dtypeof =
+t&&(t=3De?e.length:0);for(var =
+r=3D-1,o=3Dt-n||0,i=3DArray(0>o?0:o);++r<o;)i[r]=3De[n+r];return =
+i}n.exports=3Dt},{}]},{},["G9z0Bl"]);</SCRIPT>
+
+<META http-equiv=3D"Content-Type"=20
+content=3D"text/html; charset=3Dgb2312"><TITLE>Papers -  7th USENIX =
+Security=20
+Symposium, 1998 </TITLE>
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.17801"></HEAD>=20
+<BODY text=3D"#000000" topmargin=3D"0" rightmargin=3D"0" =
+leftmargin=3D"0" bgcolor=3D"#ffffff"=20
+link=3D"#990000" alink=3D"#666666" vlink=3D"#666666" =
+marginheight=3D"0"><A href=3D"http://www.usenix.org/"><IMG=20
+width=3D"288" height=3D"232" align=3D"right" alt=3D"Check out the new =
+USENIX Web site."=20
+src=3D"https://www.usenix.org/graphics/new_usenix.jpg"></A> <!-- IE =
+understands topmargin, leftmargin, rightmargin, NS understands =
+marginheight --> <!-- Banner -->=20
+<TABLE width=3D"100%" bgcolor=3D"#ffffff" border=3D"0" cellspacing=3D"0" =
+
+cellpadding=3D"0">
+  <TBODY>
+  <TR>
+    <TD align=3D"LEFT" valign=3D"TOP">
+      <TABLE width=3D"600" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0">
+        <TBODY>
+        <TR>
+          <TD>
+            <TABLE width=3D"600" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0"><!-- space at top -->=20
+              <TBODY>
+              <TR>
+                <TD colspan=3D"13"><IMG width=3D"1" height=3D"5" =
+alt=3D"" =
+src=3D"https://www.usenix.org/legacy/graphics/dot_clear.gif"><BR></TD></T=
+R>
+              <TR><!-- row 1 -->   =20
+                <TD colspan=3D"13"><IMG width=3D"600" height=3D"6" =
+alt=3D"" src=3D"https://www.usenix.org/legacy/graphics/smalltop.gif"=20
+                  border=3D"0"></TD></TR>
+              <TR><!-- row 2 -->   =20
+                <TD rowspan=3D"2"><IMG width=3D"102" height=3D"23" =
+alt=3D"" src=3D"https://www.usenix.org/legacy/graphics/smallleft.gif"=20
+                  border=3D"0"></TD>
+                <TD bgcolor=3D"#666666"><A=20
+                  href=3D"https://www.usenix.org/legacy/"><IMG =
+width=3D"38" height=3D"16"=20
+                  alt=3D"Home" =
+src=3D"https://www.usenix.org/legacy/graphics/smallhome.gif"=20
+                  border=3D"0"></A></TD>
+                <TD bgcolor=3D"#666666"><IMG width=3D"17" height=3D"16" =
+alt=3D"" src=3D"https://www.usenix.org/legacy/graphics/divider16.gif"=20
+                  border=3D"0"></TD>
+                <TD bgcolor=3D"#666666"><A =
+href=3D"https://www.usenix.org/legacy/about"><IMG=20
+                  width=3D"90" height=3D"16" alt=3D"About USENIX" =
+src=3D"https://www.usenix.org/legacy/graphics/smallabout.gif"=20
+                  border=3D"0"></A></TD>
+                <TD bgcolor=3D"#666666"><IMG width=3D"17" height=3D"16" =
+alt=3D"" src=3D"https://www.usenix.org/legacy/graphics/divider16.gif"=20
+                  border=3D"0"></TD>
+                <TD bgcolor=3D"#666666"><A =
+href=3D"https://www.usenix.org/legacy/events"><IMG=20
+                  width=3D"42" height=3D"16" alt=3D"Events" =
+src=3D"https://www.usenix.org/legacy/graphics/smallevents.gif"=20
+                  border=3D"0"></A></TD>
+                <TD bgcolor=3D"#666666"><IMG width=3D"17" height=3D"16" =
+alt=3D"" src=3D"https://www.usenix.org/legacy/graphics/divider16.gif"=20
+                  border=3D"0"></TD>
+                <TD bgcolor=3D"#666666"><A =
+href=3D"https://www.usenix.org/legacy/membership"><IMG=20
+                  width=3D"78" height=3D"16" alt=3D"Membership" =
+src=3D"https://www.usenix.org/legacy/graphics/smallmembership.gif"=20
+                  border=3D"0"></A></TD>
+                <TD bgcolor=3D"#666666"><IMG width=3D"17" height=3D"16" =
+alt=3D"" src=3D"https://www.usenix.org/legacy/graphics/divider16.gif"=20
+                  border=3D"0"></TD>
+                <TD bgcolor=3D"#666666"><A =
+href=3D"https://www.usenix.org/legacy/publications"><IMG=20
+                  width=3D"77" height=3D"16" alt=3D"Publications" =
+src=3D"https://www.usenix.org/legacy/graphics/on/smallpublications.gif"=20
+                  border=3D"0"></A></TD>
+                <TD bgcolor=3D"#666666"><IMG width=3D"17" height=3D"16" =
+alt=3D"" src=3D"https://www.usenix.org/legacy/graphics/divider16.gif"=20
+                  border=3D"0"></TD>
+                <TD bgcolor=3D"#666666"><A =
+href=3D"https://www.usenix.org/legacy/students"><IMG=20
+                  width=3D"54" height=3D"16" alt=3D"Students" =
+src=3D"https://www.usenix.org/legacy/graphics/smallstudents.gif"=20
+                  border=3D"0"></A></TD>
+                <TD bgcolor=3D"#666666"><IMG width=3D"34" height=3D"16" =
+alt=3D"" src=3D"https://www.usenix.org/legacy/graphics/smallright16.gif" =
+
+                  border=3D"0"></TD></TR>
+              <TR><!-- row 3 -->   =20
+                <TD bgcolor=3D"#666666" colspan=3D"12"><IMG width=3D"2" =
+height=3D"7"=20
+                  alt=3D"" =
+src=3D"https://www.usenix.org/legacy/graphics/dot_clear.gif"=20
+                  =
+border=3D"0"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></T=
+R></TBODY></TABLE><!-- End of Banner -->=20
+<TABLE width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"8">
+  <TBODY>
+  <TR>
+    <TD><FONT color=3D"#990000" face=3D"verdana, arial, helvetica, =
+sans-serif"=20
+      size=3D"+1"><B>7th USENIX Security Symposium,=20
+      1998</B></FONT>&nbsp;&nbsp;&nbsp;<FONT face=3D"verdana, arial, =
+helvetica, sans-serif"=20
+      size=3D"-1">[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/technical.html">Technical=20
+      Program</A>]</FONT>=20
+      <P><!-- START OF PAGE CONTENTS -->=20
+      <P>
+      <H1 align=3D"CENTER">Data Mining Approaches for Intrusion =
+Detection<A name=3D"TITLE"=20
+      =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#5"><SUP>1</SUP></A>=20
+      </H1>
+      <P align=3D"CENTER"><STRONG>Wenke Lee and Salvatore J. Stolfo=20
+      <BR><BR><EM>Computer Science Department</EM> <BR><EM>Columbia=20
+      University</EM> <BR><EM>500 West 120th Street, New York, NY =
+10027</EM>=20
+      <BR>	{wenke,sal}@cs.columbia.edu<BR></STRONG></P>
+      <P align=3D"CENTER"><STRONG></STRONG></P>
+      <P align=3D"LEFT"></P>
+      <P>
+      <H2><A name=3D"SECTION00001000000000000000">Abstract</A> </H2>In =
+this paper=20
+      we discuss our research in developing general and systematic =
+methods for=20
+      intrusion detection. The key ideas are to use data mining =
+techniques to=20
+      discover consistent and useful patterns of system features that =
+describe=20
+      program and user behavior, and use the set of relevant system =
+features to=20
+      compute (inductively learned) classifiers that can recognize =
+anomalies and=20
+      known intrusions. Using experiments on the <EM>sendmail</EM> =
+system call=20
+      data and the network <EM>tcpdump</EM> data, we demonstrate that we =
+can=20
+      construct concise and accurate classifiers to detect anomalies. We =
+provide=20
+      an overview on two general data mining algorithms that we have=20
+      implemented: the association rules algorithm and the frequent =
+episodes=20
+      algorithm. These algorithms can be used to compute the intra- and =
+inter-=20
+      audit record patterns, which are essential in describing program =
+or user
+       behavior. The discovered patterns can guide the audit data =
+gathering
+       process and facilitate feature selection. To meet the challenges =
+of both=20
+      efficient learning (mining) and real-time detection, we propose an =
+
+      agent-based architecture for intrusion detection systems where the
+       learning agents continuously compute and provide the updated =
+(detection)=20
+      models to the detection agents.=20
+      <P>
+      <H1><A name=3D"SECTION00010000000000000000">1 Introduction</A> =
+</H1>As=20
+      network-based computer systems play increasingly vital roles in =
+modern=20
+      society, they have become the targets of our enemies and =
+criminals.=20
+      Therefore, we need to find the best ways possible to protect our =
+systems.=20
+      <P>The security of a computer system is compromised when an =
+intrusion
+       takes place. An intrusion can be defined &nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Hlms_90">HLMS90</A>]=20
+      as "any set of actions that attempt to compromise the integrity,=20
+      confidentiality or availability of a resource".  Intrusion =
+prevention=20
+      techniques, such as user authentication (e.g. using passwords or=20
+      biometrics), avoiding programming errors, and information =
+protection=20
+      (e.g., encryption) have been used to protect computer systems as a =
+first=20
+      line of defense. Intrusion prevention alone is not sufficient =
+because as
+       systems become ever more complex, there are always exploitable =
+weakness=20
+      in the systems due to design and programming errors, or various =
+"socially=20
+      engineered" penetration techniques. For example, after it was =
+first=20
+      reported many years ago, exploitable "buffer overflow" still =
+exists in=20
+      some recent system software due to programming errors. The =
+policies that=20
+      balance convenience versus strict control of a system and =
+information=20
+      access also make it impossible for an operational system to be =
+completely=20
+      secure.=20
+      <P>Intrusion detection is therefore needed as another wall to =
+protect
+       computer systems. The elements central to intrusion detection =
+are:=20
+      <EM>resources</EM> to be protected in a target system, i.e., user
+       accounts, file systems, system kernels, etc; <EM>models</EM> that
+       characterize the "normal" or "legitimate" behavior of these =
+resources;=20
+      <EM>techniques</EM> that compare the actual system activities with =
+the=20
+      established models, and identify those that are "abnormal" or =
+"intrusive".=20
+      <P>Many researchers have proposed and implemented different models =
+which=20
+      define different measures of system behavior, with an ad hoc =
+presumption=20
+      that normalcy and anomaly (or illegitimacy) will be accurately =
+manifested=20
+      in the chosen set of system features that are modeled and =
+measured.=20
+      Intrusion detection techniques can be categorized into <EM>misuse=20
+      detection</EM>, which uses patterns of well-known attacks or weak =
+spots of=20
+      the system to identify intrusions; and <EM>anomaly detection</EM>, =
+which=20
+      tries to determine whether deviation from the established normal =
+usage=20
+      patterns can be flagged as intrusions.=20
+      <P>Misuse detection systems, for example &nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Kumar_1995">KS95</A>]=20
+      and STAT&nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Ilgun_1995">IKP95</A>],=
+=20
+      encode and match the sequence of "signature actions" (e.g., change =
+the=20
+      ownership of a file) of known intrusion scenarios. The main =
+shortcomings=20
+      of such systems are: known intrusion patterns have to be =
+hand-coded into=20
+      the system; they are unable to detect any future (unknown) =
+intrusions that=20
+      have no matched patterns stored in the system.=20
+      <P>Anomaly detection (sub)systems, such as IDES&nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Lunt_1992">LTG+92</A>],=
+
+       establish normal usage patterns (profiles) using statistical =
+measures on=20
+      system features, for example, the CPU and I/O activities by a =
+particular=20
+      user or program. The main difficulties of these systems are: =
+intuition and=20
+      experience is relied upon in selecting the system features, which =
+can vary=20
+      greatly among different computing environments; some intrusions =
+can only=20
+      be detected by studying the sequential interrelation between =
+events=20
+      because each event alone may fit the profiles.=20
+      <P>Our research aims to eliminate, as much as possible, the manual =
+and
+       ad-hoc elements from the process of building an intrusion =
+detection
+       system. We take a data-centric point of view and consider =
+intrusion
+       detection as a data analysis process. Anomaly detection is about =
+finding=20
+      the normal usage patterns from the audit data, whereas misuse =
+detection is=20
+      about encoding and matching the intrusion patterns using the audit =
+data.=20
+      The central theme of our approach is to apply data mining =
+techniques to=20
+      intrusion detection. Data mining generally refers to the process =
+of=20
+      (automatically) extracting models from large stores of =
+data&nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Fayyad_1996b">FPSS96</A=
+>].=20
+      The recent rapid development in data mining has made available a =
+wide=20
+      variety of algorithms, drawn from the fields of statistics, =
+pattern=20
+      recognition, machine learning, and database. Several types of =
+algorithms=20
+      are particularly relevant to our research:=20
+      <DL>
+        <DT><STRONG>Classification:</STRONG>=20
+        <DD>maps a data item into one of several pre-defined categories. =
+These=20
+        algorithms normally output "classifiers", for example, in the =
+form of=20
+        decision trees or rules. An ideal application in intrusion =
+detection=20
+        will be to gather sufficient "normal" and "abnormal" audit data =
+for a=20
+        user or a program, then apply a classification algorithm to =
+learn a=20
+        classifier that will determine (future) audit data as belonging =
+to the=20
+        normal class or the abnormal class;=20
+        <DT><STRONG>Link analysis:</STRONG>=20
+        <DD>determines relations between fields in the database. Finding =
+out the=20
+        correlations in audit data will provide insight for selecting =
+the right=20
+        set of system features for intrusion detection;=20
+        <DT><STRONG>Sequence analysis:</STRONG>=20
+        <DD>models sequential patterns. These algorithms can help us =
+understand=20
+        what (time-based) sequence of audit events are frequently =
+encountered=20
+        together. These frequent event patterns are important elements =
+of the=20
+        behavior profile of a user or program. </DD></DL>
+      <P>We are developing a systematic framework for designing, =
+developing and
+       evaluating intrusion detection systems. Specifically, the =
+framework
+       consists of a set of environment-independent guidelines and =
+programs that=20
+      can assist a system administrator or security officer to=20
+      <UL>
+        <LI> select appropriate system features from audit data to build =
+models=20
+        for intrusion detection;=20
+        <LI> architect a hierarchical detector system from component =
+detectors;=20
+        <LI> update and deploy new detection systems as needed. =
+</LI></UL>
+      <P>The key advantage of our approach is that it can automatically =
+generate=20
+      concise and accurate detection models from large amount of audit =
+data. The=20
+      methodology itself is general and mechanical, and therefore can be =
+used to=20
+      build intrusion detection systems for a wide variety of computing=20
+      environments.=20
+      <P>The rest of the paper is organized as follows: Section&nbsp;<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#classifications_experim=
+ents">2</A>=20
+      describes our experiments in building classification models for=20
+      <EM>sendmail</EM> and network traffic. Section&nbsp;<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#algorithms">3</A>=20
+      presents the association rules and frequent episodes algorithms =
+that can=20
+      be used to compute a set of patterns from audit data. =
+Section&nbsp;<A=20
+      =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#architecture">4</A>=20
+      briefly highlights the architecture of our proposed intrusion =
+detection
+       system. Section&nbsp;<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#conclusion">5</A>=20
+      outlines our future research plans.=20
+      <P>
+      <H1><A name=3D"SECTION00020000000000000000">2 Building =
+Classification=20
+      Models</A> </H1><A =
+name=3D"classifications_experiments">&nbsp;</A>In this=20
+      section we describe in detail our experiments in constructing
+       classification models for anomaly detection.  The first set of
+       experiments, first reported in &nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Lee_1997">LSC97</A>],=20
+      is on the <EM>sendmail</EM> system call data, and the second is on =
+the=20
+      network <EM>tcpdump</EM> data.=20
+      <P>
+      <H2><A name=3D"SECTION00021000000000000000">2.1 Experiments on=20
+      <EM>sendmail</EM> Data</A> </H2><A=20
+      name=3D"sendmail_experiments">&nbsp;</A>There have been a lot of =
+attacks on=20
+      computer systems that are carried out as exploitations of the =
+design and=20
+      programming errors in privileged programs, those that can run as =
+root. For=20
+      example, a flaw in the <EM>finger</EM> daemon allows the attacker =
+to use=20
+      "buffer overflow" to trick the program to execute his malicious =
+code.=20
+      Recent research efforts by Ko et al. &nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Ko_1994">KFL94</A>]=20
+      and Forrest et al. &nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Forrest_1996">FHSL96</A=
+>]=20
+      attempted to build intrusion detection systems that monitor the =
+execution=20
+      of privileged programs and detect the attacks on their =
+vulnerabilities.=20
+      Forrest et al. discovered that the short sequences of system calls =
+made by=20
+      a program during its normal executions are very consistent, yet =
+different=20
+      from the sequences of its abnormal (exploited) executions as well =
+as the
+       executions of other programs. Therefore a database containing =
+these
+       normal sequences can be used as the "self" definition of the =
+normal
+       behavior of a program, and as the basis to detect anomalies. =
+Their
+       findings motivated us to search for simple and accurate intrusion
+       detection models.=20
+      <P>Stephanie Forrest provided us with a set of traces of the <EM>
+      sendmail</EM> program used in her experiments&nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Forrest_1996">FHSL96</A=
+>].=20
+      We applied machine learning techniques to produce classifiers that =
+can
+       distinguish the exploits from the normal runs.=20
+      <P>
+      <H3><A name=3D"SECTION00021100000000000000">2.1.1 The =
+<EM>sendmail</EM>=20
+      System Call Traces</A> </H3><A =
+name=3D"systemcall_data">&nbsp;</A>The=20
+      procedure of generating the <EM>sendmail</EM> traces were detailed =
+in
+      &nbsp; [<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Forrest_1996">FHSL96</A=
+>].=20
+      Briefly, each file of the trace data has two columns of integers, =
+the=20
+      first is the process ids and the second is the system call =
+"numbers".=20
+      These numbers are indices into a lookup table of system call =
+names. For=20
+      example, the number "5" represents system call <EM>open</EM>. The =
+set of=20
+      traces include:=20
+      <DL>
+        <DT><STRONG>Normal traces:</STRONG>=20
+        <DD>a trace of the <EM>sendmail</EM> daemon and a concatenation =
+of=20
+        several invocations of the <EM>sendmail</EM> program;=20
+        <DT><STRONG>Abnormal traces:</STRONG>=20
+        <DD>3 traces of the <EM>sscp</EM> (<EM>sunsendmailcp</EM>) =
+attacks, 2=20
+        traces of the <EM>syslog-remote</EM> attacks, 2 traces of the=20
+        <EM>syslog-local</EM> attacks, 2 traces of the <EM>decode</EM> =
+attacks,=20
+        1 trace of the <EM>sm5x</EM> attack and 1 trace of the =
+<EM>sm565a</EM>=20
+        attack. These are the traces of (various kinds of) abnormal runs =
+of the=20
+        <EM>sendmail</EM> program. </DD></DL>
+      <H3><A name=3D"SECTION00021200000000000000">2.1.2 Learning to =
+Classify=20
+      System Call Sequences</A> </H3><A =
+name=3D"learning_sequences">&nbsp;</A>In=20
+      order for a machine learning program to learn the classification =
+models of=20
+      the "normal" and "abnormal" system call sequences, we need to =
+supply it=20
+      with a set of training data containing pre-labeled "normal" and =
+"abnormal"=20
+      sequences. We use a sliding window to scan the normal traces and =
+create a=20
+      list of unique sequences of system calls. We call this list the =
+"normal"=20
+      list. Next, we scan each of the intrusion traces. For each =
+sequence of=20
+      system calls, we first look it up in the normal list. If an exact =
+match=20
+      can be found then the sequence is labeled as "normal". Otherwise =
+it is=20
+      labeled as "abnormal" (note that the data gathering process =
+described in
+      &nbsp; [<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Forrest_1996">FHSL96</A=
+>]=20
+      ensured that the normal traces include nearly all possible =
+"normal" short=20
+      sequences of system calls, as new runs of <I>sendmail</I> failed =
+to=20
+      generate new sequences). Needless to say all sequences in the =
+normal=20
+      traces are labeled as "normal". See Table&nbsp;<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#labeled_sequences">1</A=
+>=20
+      for an example of the labeled sequences. It should be noted that =
+an=20
+      intrusion trace contains many normal sequences in addition to the =
+abnormal=20
+      sequences since the illegal activities only occur in some places =
+within a=20
+      trace. <A name=3D"labeled_sequences">&nbsp;</A>=20
+      <DIV align=3D"CENTER"><A name=3D"72">&nbsp;</A>=20
+      <TABLE border=3D"1" cellpadding=3D"3">
+        <TBODY>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">System Call Sequences (length =
+7)</TD>
+          <TD align=3D"LEFT" nowrap=3D"">Class Labels</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">4 2 66 66 4 138 66</TD>
+          <TD align=3D"LEFT" nowrap=3D"">"normal"</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">...</TD>
+          <TD align=3D"LEFT" nowrap=3D"">...</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">5 5 5 4 59 105 104</TD>
+          <TD align=3D"LEFT" nowrap=3D"">"abnormal"</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">...</TD>
+          <TD align=3D"LEFT" nowrap=3D"">...</TD></TR>
+        <CAPTION><STRONG>Table 1:</STRONG> Pre-labeled System Call =
+Sequences of=20
+        Length 7</CAPTION></TABLE></DIV><BR>
+      <P>We applied RIPPER&nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Cohen_1995">Coh95</A>],=
+=20
+      a rule learning program, to our training data. The following =
+learning=20
+      tasks were formulated to induce the rule sets for normal and =
+abnormal=20
+      system call sequences:=20
+      <UL>
+        <LI> Each record has <I>n</I> positional attributes,=20
+        <I>p<SUB>1</SUB></I>, <I>p<SUB>2</SUB></I>, ...,=20
+        <I>p</I><SUB><I>n</I></SUB>, one for each of the system calls in =
+a=20
+        sequence of length <I>n</I>; plus a class label, "normal" or =
+"abnormal"=20
+        <LI> The training data is composed of normal sequences taken =
+from 80% of=20
+        the normal traces, plus the abnormal sequences from 2 traces of =
+the=20
+        <I>sscp</I> attacks, 1 trace of the <EM>syslog-local</EM> =
+attack, and 1=20
+        trace of the <EM>syslog-remote</EM> attack=20
+        <LI> The testing data includes both normal and abnormal traces =
+not used=20
+        in the training data. </LI></UL>
+      <P>RIPPER outputs a set of if-then rules for the "minority" =
+classes, and a=20
+      default "true" rule for the remaining class. The following =
+exemplar RIPPER=20
+      rules were generated from the system call data:=20
+      <BLOCKQUOTE>normal:- <I>p<SUB>2</SUB></I>=3D104, =
+<I>p<SUB>7</SUB></I>=3D112.=20
+         [meaning: if <I>p<SUB>2</SUB></I> is 104 (<I>vtimes</I>) and=20
+        <I>p<SUB>7</SUB></I> is 112 (<I>vtrace</I>) then the sequence is
+         "normal"]=20
+        <P>normal:- <I>p<SUB>6</SUB></I>=3D19, =
+<I>p<SUB>7</SUB></I>=3D105. =20
+        [meaning: if <I>p<SUB>6</SUB></I> is 19 (<I>lseek</I>) and=20
+        <I>p<SUB>7</SUB></I> is 105 (<I>sigvec</I>) then the sequence is
+         "normal"]=20
+        <P>...=20
+        <P>abnormal:- true.  [meaning: if none of the above, the =
+sequence is
+         "abnormal"] </P></BLOCKQUOTE>
+      <P>These RIPPER rules can be used to predict whether a sequence is
+       "abnormal" or "normal". But what the intrusion detection system =
+needs to=20
+      know is whether the trace being analyzed is an intrusion or not. =
+We use=20
+      the following post-processing scheme to detect whether a given =
+trace is an=20
+      intrusion based on the RIPPER predictions of its constituent =
+sequences:=20
+      <DL compact=3D"">
+        <DT>1.=20
+        <DD>Use a sliding window of length 2<I>L</I>+1, e.g., 7, 9, 11, =
+13,=20
+        etc., and a sliding (shift) step of <I>L</I>, to scan the =
+predictions=20
+        made by the RIPPER rules on system call sequences.  =20
+        <DT>2.=20
+        <DD>For each of the (length 2<I>L</I>+1) regions of RIPPER =
+predictions
+         generated in Step 1, if more than <I>L</I> predictions are =
+"abnormal"
+         then the current region of predictions is an "abnormal" region. =
+(Note
+         that <I>L</I> is an input parameter).=20
+        <DT>3.=20
+        <DD>If the percentage of abnormal regions is above a threshold =
+value,=20
+        say 2%, then the trace is an intrusion. </DD></DL>
+      <P>This scheme is an attempt to filter out the spurious prediction =
+errors.=20
+      The intuition behind this scheme is that when an intrusion =
+actually=20
+      occurs, the majority of adjacent system call sequences are =
+abnormal;=20
+      whereas the prediction errors tend to be isolated and sparse. In =
+&nbsp;[<A=20
+      =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Forrest_1996">FHSL96</A=
+>],=20
+      the percentage of the mismatched sequences (out of the total =
+number of=20
+      matches (lookups) performed for the trace) is used to distinguish =
+normal=20
+      from abnormal. The "mismatched" sequences are the abnormal =
+sequences in=20
+      our context. Our scheme is different in that we look for abnormal =
+regions
+       that contain more abnormal sequences than the normal ones, and =
+calculate=20
+      the percentage of abnormal regions (out of the total number of =
+regions).=20
+      Our scheme is more sensitive to the temporal information, and is =
+less=20
+      sensitive to noise (errors).=20
+      <P>RIPPER only outputs rules for the "minority" class. For =
+example, in our=20
+      experiments, if the training data has fewer abnormal sequences =
+than the=20
+      normal ones, the output RIPPER rules can be used to identify =
+abnormal=20
+      sequences, and the default (everything else) prediction is normal. =
+We=20
+      conjectured that a set of specific rules for normal sequences can =
+be used=20
+      as the "identity" of a program, and thus can be used to detect any =
+known=20
+      and unknown intrusions (anomaly intrusion detection). Whereas =
+having only=20
+      the rules for abnormal sequences only gives us the capability to =
+identify=20
+      known intrusions (misuse intrusion detection). <A=20
+      name=3D"sequence_results">&nbsp;</A>=20
+      <DIV align=3D"CENTER"><A name=3D"321">&nbsp;</A>=20
+      <TABLE border=3D"1" cellpadding=3D"3">
+        <CAPTION><STRONG>Table:</STRONG> Comparing Detection of =
+Anomalies. The=20
+        column&nbsp; [<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Forrest_1996">FHSL96</A=
+>]=20
+        is the percentage of the abnormal sequences of the traces. =
+Columns A, B,=20
+        C, and D are the percentages of abnormal regions (as measured by =
+the=20
+        post-processing scheme) of the traces. <I>sendmail</I> is the =
+20% normal=20
+        traces not used in the training data. Traces in bold were =
+included in=20
+        the training data, the other traces were used as testing data=20
+        only.</CAPTION>
+        <TBODY>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">&nbsp;</TD>
+          <TD align=3D"CENTER" nowrap=3D""> % abn.</TD>
+          <TD align=3D"CENTER" nowrap=3D"" colspan=3D"4"> % abn. in =
+experiment</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">Traces</TD>
+          <TD align=3D"CENTER" nowrap=3D"">&nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Forrest_1996">FHSL96</A=
+>]</TD>
+          <TD align=3D"CENTER" nowrap=3D"">A</TD>
+          <TD align=3D"CENTER" nowrap=3D"">B</TD>
+          <TD align=3D"CENTER" nowrap=3D"">C</TD>
+          <TD align=3D"CENTER" nowrap=3D"">D</TD></TR>
+        <TR valign=3D"TOP">
+          <TH align=3D"LEFT" nowrap=3D""><B>sscp-1</B></TH>
+          <TD align=3D"CENTER" nowrap=3D"">5.2</TD>
+          <TD align=3D"CENTER" nowrap=3D"">41.9</TD>
+          <TD align=3D"CENTER" nowrap=3D"">32.2</TD>
+          <TD align=3D"CENTER" nowrap=3D"">40.0</TD>
+          <TD align=3D"CENTER" nowrap=3D"">33.1</TD></TR>
+        <TR valign=3D"TOP">
+          <TH align=3D"LEFT" nowrap=3D""><B>sscp-2</B></TH>
+          <TD align=3D"CENTER" nowrap=3D"">5.2</TD>
+          <TD align=3D"CENTER" nowrap=3D"">40.4</TD>
+          <TD align=3D"CENTER" nowrap=3D"">30.4</TD>
+          <TD align=3D"CENTER" nowrap=3D"">37.6</TD>
+          <TD align=3D"CENTER" nowrap=3D"">33.3</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">sscp-3</TD>
+          <TD align=3D"CENTER" nowrap=3D"">5.2</TD>
+          <TD align=3D"CENTER" nowrap=3D"">40.4</TD>
+          <TD align=3D"CENTER" nowrap=3D"">30.4</TD>
+          <TD align=3D"CENTER" nowrap=3D"">37.6</TD>
+          <TD align=3D"CENTER" nowrap=3D"">33.3</TD></TR>
+        <TR valign=3D"TOP">
+          <TH align=3D"LEFT" nowrap=3D""><B>syslog-r-1</B></TH>
+          <TD align=3D"CENTER" nowrap=3D"">5.1</TD>
+          <TD align=3D"CENTER" nowrap=3D"">30.8</TD>
+          <TD align=3D"CENTER" nowrap=3D"">21.2</TD>
+          <TD align=3D"CENTER" nowrap=3D"">30.3</TD>
+          <TD align=3D"CENTER" nowrap=3D"">21.9</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">syslog-r-2</TD>
+          <TD align=3D"CENTER" nowrap=3D"">1.7</TD>
+          <TD align=3D"CENTER" nowrap=3D"">27.1</TD>
+          <TD align=3D"CENTER" nowrap=3D"">15.6</TD>
+          <TD align=3D"CENTER" nowrap=3D"">26.8</TD>
+          <TD align=3D"CENTER" nowrap=3D"">16.5</TD></TR>
+        <TR valign=3D"TOP">
+          <TH align=3D"LEFT" nowrap=3D""><B>syslog-l-1</B></TH>
+          <TD align=3D"CENTER" nowrap=3D"">4.0</TD>
+          <TD align=3D"CENTER" nowrap=3D"">16.7</TD>
+          <TD align=3D"CENTER" nowrap=3D"">11.1</TD>
+          <TD align=3D"CENTER" nowrap=3D"">17.0</TD>
+          <TD align=3D"CENTER" nowrap=3D"">13.0</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">syslog-l-2</TD>
+          <TD align=3D"CENTER" nowrap=3D"">5.3</TD>
+          <TD align=3D"CENTER" nowrap=3D"">19.9</TD>
+          <TD align=3D"CENTER" nowrap=3D"">15.9</TD>
+          <TD align=3D"CENTER" nowrap=3D"">19.8</TD>
+          <TD align=3D"CENTER" nowrap=3D"">15.9</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">decode-1</TD>
+          <TD align=3D"CENTER" nowrap=3D"">0.3</TD>
+          <TD align=3D"CENTER" nowrap=3D"">4.7</TD>
+          <TD align=3D"CENTER" nowrap=3D"">2.1</TD>
+          <TD align=3D"CENTER" nowrap=3D"">3.1</TD>
+          <TD align=3D"CENTER" nowrap=3D"">2.1</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">decode-2</TD>
+          <TD align=3D"CENTER" nowrap=3D"">0.3</TD>
+          <TD align=3D"CENTER" nowrap=3D"">4.4</TD>
+          <TD align=3D"CENTER" nowrap=3D"">2.0</TD>
+          <TD align=3D"CENTER" nowrap=3D"">2.5</TD>
+          <TD align=3D"CENTER" nowrap=3D"">2.2</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">sm565a</TD>
+          <TD align=3D"CENTER" nowrap=3D"">0.6</TD>
+          <TD align=3D"CENTER" nowrap=3D"">11.7</TD>
+          <TD align=3D"CENTER" nowrap=3D"">8.0</TD>
+          <TD align=3D"CENTER" nowrap=3D"">1.1</TD>
+          <TD align=3D"CENTER" nowrap=3D"">1.0</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">sm5x</TD>
+          <TD align=3D"CENTER" nowrap=3D"">2.7</TD>
+          <TD align=3D"CENTER" nowrap=3D"">17.7</TD>
+          <TD align=3D"CENTER" nowrap=3D"">6.5</TD>
+          <TD align=3D"CENTER" nowrap=3D"">5.0</TD>
+          <TD align=3D"CENTER" nowrap=3D"">3.0</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D""><I>sendmail</I></TD>
+          <TD align=3D"CENTER" nowrap=3D"">0</TD>
+          <TD align=3D"CENTER" nowrap=3D"">1.0</TD>
+          <TD align=3D"CENTER" nowrap=3D"">0.1</TD>
+          <TD align=3D"CENTER" nowrap=3D"">0.2</TD>
+          <TD align=3D"CENTER" =
+nowrap=3D"">0.3</TD></TR></TBODY></TABLE></DIV><BR>
+      <P>We compare the results of the following experiments that have =
+different=20
+      distributions of abnormal versus normal sequences in the training =
+data: =20
+      <DL>
+        <DT><STRONG>Experiment A:</STRONG>=20
+        <DD>46% normal and 54% abnormal, sequence length is 11;=20
+        <DT><STRONG>Experiment B:</STRONG>=20
+        <DD>46% normal and 54% abnormal, sequence length is 7;=20
+        <DT><STRONG>Experiment C:</STRONG>=20
+        <DD>46% abnormal and 54% normal, sequence length is 11;=20
+        <DT><STRONG>Experiment D:</STRONG>=20
+        <DD>46% abnormal and 54% normal, sequence length is 7. =
+</DD></DL>
+      <P>Table&nbsp;<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#sequence_results">2</A>=
+=20
+      shows the results of using the classifiers from these experiments =
+to=20
+      analyze the traces. We report here the percentage of abnormal =
+regions (as=20
+      measured by our post-processing scheme) of each trace, and compare =
+our=20
+      results with Forrest et al., as reported in &nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Forrest_1996">FHSL96</A=
+>].=20
+      From Table&nbsp;<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#sequence_results">2</A>=
+,=20
+      we can see that in general, intrusion traces generate much larger=20
+      percentages of abnormal regions than the normal traces. We call =
+these=20
+      measured percentages the "scores" of the traces. In order to =
+establish a=20
+      threshold score for identifying intrusion traces, it is desirable =
+that=20
+      there is a sufficiently large gap between the scores of the normal =
+
+      sendmail traces and the low-end scores of the intrusion traces. =
+Comparing=20
+      experiments that used the same sequence length, we observe that =
+such a gap=20
+      in A, 3.4, is larger than the gap in C, 0.9; and 1.9 in B is =
+larger than
+       0.7 in D. The RIPPER rules from experiments A and B describe the =
+patterns=20
+      of the normal sequences. Here the results show that these rules =
+can be=20
+      used to identify the intrusion traces, including those not seen in =
+the=20
+      training data, namely, the <EM>decode</EM> traces, the =
+<EM>sm565a</EM> and=20
+      <EM>sm5x</EM> traces. This confirms our conjecture that rules for =
+normal=20
+      patterns can be used for anomaly detection. The RIPPER rules from=20
+      experiments C and D specify the patterns of abnormal sequences in =
+the=20
+      intrusion traces included in the training data. The results =
+indicate that=20
+      these rules are very capable of detecting the intrusion traces of =
+the=20
+      "known" types (those seen in the training data), namely, the=20
+      <EM>sscp-3</EM> trace, the <EM>syslog-remote-2</EM> trace and the=20
+      <EM>syslog-local-2</EM> trace. But comparing with the rules from A =
+and B,=20
+      the rules in C and D perform poorly on intrusion traces of =
+"unknown"=20
+      types. This confirms our conjecture that rules for abnormal =
+patterns are=20
+      good for misuse intrusion detection, but may not be as effective =
+in=20
+      detecting future ("unknown") intrusions.=20
+      <P>The results from Forrest et al. showed that their method =
+required a
+       very low threshold in order to correctly detect the <I>decode</I> =
+and=20
+      <I>sm</I>565<I>a</I> intrusions. While the results here show that =
+our=20
+      approach generated much stronger "signals" of anomalies from the =
+intrusion
+       traces, it should be noted that their method used all of the =
+normal
+       traces but not any of the intrusion traces in training.=20
+      <P>
+      <H3><A name=3D"SECTION00021300000000000000">2.1.3 Learning to =
+Predict System=20
+      Calls</A> </H3><A name=3D"predict_syscalls">&nbsp;</A>Unlike the =
+experiments=20
+      in Section&nbsp;<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#learning_sequences">2.1=
+.2</A>=20
+      which required abnormal traces in the training data, here we =
+wanted to
+       study how to compute an anomaly detector given just the normal =
+traces. =20
+      We conducted experiments to learn the (normal) correlation among =
+system=20
+      calls: the <I>n</I>th system calls or the middle system calls in =
+(normal)=20
+      sequences of length <I>n</I>.=20
+      <P>The learning tasks were formulated as follows:=20
+      <UL>
+        <LI> Each record has <I>n</I>-1 positional attributes,=20
+        <I>p<SUB>1</SUB></I>, <I>p<SUB>2</SUB></I>, ...,=20
+        <I>p</I><SUB><I>n</I>-1</SUB>, each being a system call; plus a =
+class=20
+        label, the system call of the <I>n</I>th position or the middle =
+position=20
+        <LI> The training data is composed of (normal) sequences taken =
+from  80%=20
+        of the normal sendmail traces=20
+        <LI> The testing data is the traces not included in the training =
+data,=20
+        namely, the remaining 20% of the normal sendmail traces and all =
+the=20
+        intrusion traces. </LI></UL>
+      <P>RIPPER outputs rules in the following form:=20
+      <BLOCKQUOTE>38 :- <I>p<SUB>3</SUB></I>=3D40, =
+<I>p<SUB>4</SUB></I>=3D4. =20
+        [meaning: if <I>p<SUB>3</SUB></I> is 40 (<I>lstat</I>) and=20
+        <I>p<SUB>4</SUB></I> is 4 (<I>write</I>), then the 7th system =
+call is 38
+         (<I>stat</I>).]=20
+        <P>...=20
+        <P>5:- true. [meaning: if none of the above, then the 7th system =
+calls=20
+        is 5 (<I>open</I>).] </P></BLOCKQUOTE>
+      <P>Each of these RIPPER rules has some "confidence" information: =
+the
+       number of matched examples (records that conform to the rule) and =
+the
+       number of unmatched examples (records that are in conflict with =
+the rule)=20
+      in the training data. For example, the rule for "38 (<I>stat</I>)" =
+covers=20
+      12 matched examples and 0 unmatched examples. We measure the =
+confidence=20
+      value of a rule as the number of matched examples divided by the =
+sum of=20
+      matched and unmatched examples. These rules can be used to analyze =
+a trace=20
+      by examining each sequence of the trace. If a violation occurs =
+(the actual=20
+      system call is not the same as predicted by the rule), the "score" =
+of the=20
+      trace is incremented by 100 times the confidence of the violated =
+rule. For=20
+      example, if a sequence in the trace has <I>p<SUB>3</SUB></I>=3D40 =
+and=20
+      <I>p<SUB>4</SUB></I>=3D4, but <I>p<SUB>7</SUB></I>=3D44 instead of =
+38, the=20
+      total score of the trace is incremented by 100 since the =
+confidence value=20
+      of this violated rule is 1. The averaged score (by the total =
+number of=20
+      sequences) of the trace is then used to decide whether an =
+intrusion has=20
+      occurred. <A name=3D"syscalls_results">&nbsp;</A>=20
+      <DIV align=3D"CENTER"><A name=3D"129">&nbsp;</A>=20
+      <TABLE border=3D"1" cellpadding=3D"3">
+        <CAPTION><STRONG>Table 3:</STRONG> Detecting Anomalies using =
+Predicted=20
+        System Calls. Columns A, B, C, and D are the averaged scores of=20
+        violations of the traces. <I>sendmail</I> is the 20% normal =
+traces not=20
+        used in the training data. None of the intrusion traces was used =
+in=20
+        training.</CAPTION>
+        <TBODY>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">&nbsp;</TD>
+          <TD align=3D"CENTER" nowrap=3D"" colspan=3D"4">averaged score =
+of=20
+          violations</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">Traces</TD>
+          <TD align=3D"CENTER" nowrap=3D"">Exp. A</TD>
+          <TD align=3D"CENTER" nowrap=3D"">Exp. B</TD>
+          <TD align=3D"CENTER" nowrap=3D"">Exp. C</TD>
+          <TD align=3D"CENTER" nowrap=3D"">Exp. D</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">sscp-1</TD>
+          <TD align=3D"CENTER" nowrap=3D"">24.1</TD>
+          <TD align=3D"CENTER" nowrap=3D"">13.5</TD>
+          <TD align=3D"CENTER" nowrap=3D"">14.3</TD>
+          <TD align=3D"CENTER" nowrap=3D"">24.7</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">sscp-2</TD>
+          <TD align=3D"CENTER" nowrap=3D"">23.5</TD>
+          <TD align=3D"CENTER" nowrap=3D"">13.6</TD>
+          <TD align=3D"CENTER" nowrap=3D"">13.9</TD>
+          <TD align=3D"CENTER" nowrap=3D"">24.4</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">sscp-3</TD>
+          <TD align=3D"CENTER" nowrap=3D"">23.5</TD>
+          <TD align=3D"CENTER" nowrap=3D"">13.6</TD>
+          <TD align=3D"CENTER" nowrap=3D"">13.9</TD>
+          <TD align=3D"CENTER" nowrap=3D"">24.4</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">syslog-r-1</TD>
+          <TD align=3D"CENTER" nowrap=3D"">19.3</TD>
+          <TD align=3D"CENTER" nowrap=3D"">11.5</TD>
+          <TD align=3D"CENTER" nowrap=3D"">13.9</TD>
+          <TD align=3D"CENTER" nowrap=3D"">24.0</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">syslog-r-2</TD>
+          <TD align=3D"CENTER" nowrap=3D"">15.9</TD>
+          <TD align=3D"CENTER" nowrap=3D"">8.4</TD>
+          <TD align=3D"CENTER" nowrap=3D"">10.9</TD>
+          <TD align=3D"CENTER" nowrap=3D"">23.0</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">syslog-l-1</TD>
+          <TD align=3D"CENTER" nowrap=3D"">13.4</TD>
+          <TD align=3D"CENTER" nowrap=3D"">6.1</TD>
+          <TD align=3D"CENTER" nowrap=3D"">7.2</TD>
+          <TD align=3D"CENTER" nowrap=3D"">19.0</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">syslog-l-2</TD>
+          <TD align=3D"CENTER" nowrap=3D"">15.2</TD>
+          <TD align=3D"CENTER" nowrap=3D"">8.0</TD>
+          <TD align=3D"CENTER" nowrap=3D"">9.0</TD>
+          <TD align=3D"CENTER" nowrap=3D"">20.2</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">decode-1</TD>
+          <TD align=3D"CENTER" nowrap=3D"">9.4</TD>
+          <TD align=3D"CENTER" nowrap=3D"">3.9</TD>
+          <TD align=3D"CENTER" nowrap=3D"">2.4</TD>
+          <TD align=3D"CENTER" nowrap=3D"">11.3</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">decode-2</TD>
+          <TD align=3D"CENTER" nowrap=3D"">9.6</TD>
+          <TD align=3D"CENTER" nowrap=3D"">4.2</TD>
+          <TD align=3D"CENTER" nowrap=3D"">2.8</TD>
+          <TD align=3D"CENTER" nowrap=3D"">11.5</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">sm565a</TD>
+          <TD align=3D"CENTER" nowrap=3D"">14.4</TD>
+          <TD align=3D"CENTER" nowrap=3D"">8.1</TD>
+          <TD align=3D"CENTER" nowrap=3D"">9.4</TD>
+          <TD align=3D"CENTER" nowrap=3D"">20.6</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">sm5x</TD>
+          <TD align=3D"CENTER" nowrap=3D"">17.2</TD>
+          <TD align=3D"CENTER" nowrap=3D"">8.2</TD>
+          <TD align=3D"CENTER" nowrap=3D"">10.1</TD>
+          <TD align=3D"CENTER" nowrap=3D"">18.0</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D""><I>sendmail</I></TD>
+          <TD align=3D"CENTER" nowrap=3D"">5.7</TD>
+          <TD align=3D"CENTER" nowrap=3D"">0.6</TD>
+          <TD align=3D"CENTER" nowrap=3D"">1.2</TD>
+          <TD align=3D"CENTER" =
+nowrap=3D"">12.6</TD></TR></TBODY></TABLE></DIV><BR>
+      <P>Table&nbsp;<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#syscalls_results">3</A>=
+=20
+      shows the results of the following experiments: =20
+      <DL>
+        <DT><STRONG>Experiment A:</STRONG>=20
+        <DD>predict the 11th system call;=20
+        <DT><STRONG>Experiment B:</STRONG>=20
+        <DD>predict the middle system call in a sequence of length 7;=20
+        <DT><STRONG>Experiment C:</STRONG>=20
+        <DD>predict the middle system call in a sequence of length 11;=20
+        <DT><STRONG>Experiment D:</STRONG>=20
+        <DD>predict the 7th system call. </DD></DL>
+      <P>We can see from Table&nbsp;<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#syscalls_results">3</A>=
+=20
+      that the RIPPER rules from experiments A and B are effective =
+because the=20
+      gap between the score of normal sendmail and the low-end scores of =
+
+      intrusion traces, 3.9, and 3.3 respectively, are large enough. =
+However,=20
+      the rules from C and D perform poorly. Since C predicts the middle =
+system=20
+      call of a sequence of length 11 and D predicts the 7th system =
+call, we
+       reason that the training data (the normal traces) has no stable =
+patterns=20
+      for the 6th or 7th position in system call sequences.=20
+      <P>
+      <H3><A name=3D"SECTION00021400000000000000">2.1.4 Discussion</A> =
+</H3>Our=20
+      experiments showed that the normal behavior of a program execution =
+can be=20
+      established and used to detect its anomalous usage. This confirms =
+the=20
+      results of other related work in anomaly detection. The weakness =
+of the=20
+      model in &nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Forrest_1996">FHSL96</A=
+>]=20
+      may be that the recorded (rote learned) normal sequence database =
+may be=20
+      too specific as it contains about ~1,500 entries. Here we show =
+that a=20
+      machine learning program, RIPPER, was able to generalize the =
+system call=20
+      sequence information, from 80% of the normal sequences, to a set =
+of
+       concise and accurate rules (the rule sets have 200 to 280 rules, =
+and each=20
+      rule has 2 or 3 attribute tests). We demonstrated that these rules =
+were=20
+      able to identify unseen intrusion traces as well as normal traces. =
+
+      <P>We need to search for a more predictive classification model so =
+that
+       the anomaly detector has higher confidence in flagging =
+intrusions.
+       Improvement in accuracy can come from adding more features, =
+rather than=20
+      just the system calls, into the models of program execution. For =
+example,=20
+      the directories and the names of the files touched by a program =
+can be=20
+      used. In &nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Frank_1994">Fra94</A>],=
+=20
+      it is reported that as the number of features increases from 1 to =
+3, the=20
+      classification error rate of their network intrusion detection =
+system=20
+      decreases dramatically. Furthermore, the error rate stabilizes =
+after the=20
+      size of the feature set reaches 4, the optimal size in their =
+experiments.=20
+      Many operating systems provide auditing utilities, such as the BSM =
+audit=20
+      of Solaris, that can be configured to collect abundant information =
+(with
+       many features) of the activities in a host system. From the audit =
+trails,=20
+      information about a process (program) or a user can then be =
+extracted. The=20
+      challenge now is to efficiently compute accurate patterns of =
+programs and=20
+      users from the audit data.=20
+      <P>A key assumption in using a learning algorithm for anomaly =
+detection
+       (and to some degree, misuse detection) is that the training data =
+is
+       nearly "complete" with regard to all possible "normal" behavior =
+of a=20
+      program or user. Otherwise, the learned detection model can not
+       confidently classify or label an unmatched data as "abnormal" =
+since it=20
+      can just be an unseen "normal" data. For example, the experiments =
+in=20
+      Section&nbsp;<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#predict_syscalls">2.1.3=
+</A>=20
+      used 80% of "normal" system call sequences; whereas the =
+experiments in
+       Section&nbsp;<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#learning_sequences">2.1=
+.2</A>
+       actually required all "normal" sequences in order to pre-label =
+the
+       "abnormal" sequences to create the training data. During the =
+audit data=20
+      gathering process, we want to ensure that as much different normal =
+
+      behavior as possible is captured. We first need to have a simple =
+and=20
+      incremental (continuously learning) summary measure of an audit =
+trail so=20
+      that we can update this measure as each new audit trail is =
+processed, and=20
+      can stop the audit process when the measure stabilizes. In =
+Section&nbsp;<A=20
+      =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#algorithms">3</A>,=20
+      we propose to use the frequent intra- and inter- audit record =
+patterns as
+       the summary measure of an audit trail, and describe the =
+algorithms to
+       compute these patterns. =20
+      <P>
+      <H2><A name=3D"SECTION00022000000000000000">2.2 Experiments on=20
+      <EM>tcpdump</EM> Data</A> </H2><A=20
+      name=3D"tcpdump_experiments">&nbsp;</A>There are two approaches =
+for network=20
+      intrusion detection: one is to analyze the audit data on each host =
+of the=20
+      network and correlate the evidence from the hosts. The other is to =
+monitor=20
+      the network traffic directly using a packet capturing program such =
+as=20
+      <EM>tcpdump</EM>&nbsp; [<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Jacobson_1989">JLM89</A=
+>].=20
+      In this section, we describe how classifiers can be induced from=20
+      <EM>tcpdump</EM> data to distinguish network attacks from normal =
+traffic.=20
+      <P>
+      <H3><A name=3D"SECTION00022100000000000000">2.2.1 The =
+<EM>tcpdump</EM>=20
+      Data</A> </H3>We obtained a set of <EM>tcpdump</EM> data, =
+available at <A=20
+      =
+href=3D"http://iris.cs.uml.edu:8080/network.html">http://iris.cs.uml.edu:=
+8080/network.html</A>,
+       that is part of an Information Exploration Shootout (see <A =
+href=3D"http://iris.cs.uml.edu:8080/">http://iris.cs.uml.edu:8080/</A>). =
+
+      <EM>tcpdump</EM> was executed on the gateway that connects the =
+enterprise
+       LAN and the external networks. It captured the headers (not the =
+user
+       data) of the network packets that passed by the network interface =
+of the=20
+      gateway. Network traffic between the enterprise LAN and external =
+networks,=20
+      as well as the broadcast packets within the LAN were therefore =
+collected.=20
+      For the purposes of the shootout, filters were used so that=20
+      <EM>tcpdump</EM> only collected Internet Transmission Control =
+Protocol=20
+      (TCP) and Internet User Datagram Protocol (UDP) packets. The data =
+set=20
+      consists of 3 runs of <EM>tcpdump</EM> on generated network =
+intrusions<A=20
+      name=3D"shootout" =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#152"><SUP>2</SUP></A>=20
+      and one <EM> tcpdump</EM> run on normal network traffic (with no=20
+      intrusions). The output of each <EM>tcpdump</EM> run is in a =
+separate=20
+      file. The traffic volume (number of network connections) of these =
+runs are=20
+      about the same. Our experiments focused on building an anomaly =
+detection=20
+      model from the normal dataset.=20
+      <P>Since <EM>tcpdump</EM> output is not intended specifically for =
+security
+       purposes, we had to go through multiple iterations of data =
+pre-processing=20
+      to extract meaningful features and measures. We studied TCP/IP and =
+its=20
+      security related problems, for example&nbsp; [<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Stevens_1994">Ste84</A>=
+,<A=20
+      =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Paxon_97">Pax97</A>,<A =
+
+      =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Atkins_1996">ABH+96</A>=
+,<A=20
+      =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Paxon_98">Pax98</A>,<A =
+
+      =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Bellovin">Bel89</A>,<A =
+
+      =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Porras_98">PV98</A>],
+       for guidelines on the protocols and the important features that
+       characterize a connection.=20
+      <P>
+      <H3><A name=3D"SECTION00022200000000000000">2.2.2 Data =
+Pre-processing</A>=20
+      </H3>We developed a script to scan each <EM>tcpdump</EM> data file =
+and=20
+      extract the "connection" level information about the network =
+traffic. For
+       each TCP connection, the script processes packets between the two =
+ports=20
+      of the participating hosts, and:=20
+      <UL>
+        <LI> checks whether 3-way handshake has been properly followed =
+to=20
+        establish the connection. The following errors are recorded: =
+connection=20
+        rejected, connection attempted but not established (the =
+initiating host=20
+        never receives a SYN acknowledgment), and unwanted SYN =
+acknowledgment=20
+        received (no connection request, a SYN packet, was sent first),=20
+        <LI> monitors each data packet and ACK packet, keeps a number of
+         counters in order to calculate these statistics of the =
+connection:
+         resent rate, wrong resent rate, duplicate ACK rate, hole rate, =
+wrong
+         (data packet) size rate, (data) bytes sent in each direction,
+         percentage of data packet, and percentage of control packet, =
+and=20
+        <LI> watches how connection is terminated: normal (both sides =
+properly=20
+        send and receive FINs), abort (one host sends RST to terminate, =
+and all=20
+        data packets are properly ACKed), half closed (only one host =
+sends FIN),=20
+        and disconnected. </LI></UL>
+      <P>Since UDP is connectionless (no connection state), we simply =
+treat each=20
+      packet as a connection.=20
+      <P>A connection record, in preparation of data mining, now has the
+       following fields (features): start time, duration, participating =
+hosts,=20
+      ports, the statistics of the connection (e.g., bytes sent in each=20
+      direction, resent rate, etc.), flag ("normal" or one of the =
+recorded=20
+      connection/termination errors), and protocol (TCP or UDP). From =
+the ports,=20
+      we know whether the connection is to a well-known service, e.g.,=20
+      <EM>http</EM> (port 80), or a user application.=20
+      <P>We call the host that initiates the connection, i.e., the one =
+that
+       sends the first SYN, as the source, and the other as the =
+destination.=20
+      Depending on the direction from the source to the destination, a=20
+      connection is in one of the three types: <EM>out-going</EM> - from =
+the LAN=20
+      to the external networks; <EM>in-coming</EM> - from the external =
+networks=20
+      to the LAN; and <EM>inter-LAN</EM> - within the LAN. Taking the =
+topologies=20
+      of the network into consideration is important in network =
+intrusion=20
+      detection. Intuitively, intrusions (which come from outside) may =
+first=20
+      exhibit some abnormal patterns (e.g., penetration attempts) in the =
+
+      <EM>in-coming</EM> connections, and subsequently in the =
+<EM>inter-LAN</EM>=20
+      (e.g., doing damage to the LAN) and/or the <EM>out-going</EM> =
+(e.g.,=20
+      stealing/uploading data) connections. Analyzing these types of =
+connections=20
+      and constructing corresponding detection models separately may =
+improve=20
+      detection accuracy.=20
+      <P>
+      <H3><A name=3D"SECTION00022300000000000000">2.2.3 Experiments and=20
+      Results</A> </H3>For each type (direction) of the connections, we=20
+      formulated the classification experiments as the following:=20
+      <UL>
+        <LI> Each (connection) record uses the destination service =
+(port) as the=20
+        class label, and all the other connection features as =
+attributes;=20
+        <LI> The training data is 80% of the connections from the normal =
+
+        <EM>tcpdump</EM> data file, while the test data includes the =
+remaining
+         20% from the normal <EM>tcpdump</EM> data file, and all the =
+connections=20
+        from the 3 <EM>tcpdump</EM> data files marked as having embedded =
+
+        attacks;=20
+        <LI> 5-fold cross validation evaluation is reported here. The =
+process=20
+        (training and testing) is repeated 5 times, each time using a =
+different=20
+        80% of the normal data as the training data (and accordingly the =
+
+        different remaining 20% of the normal data as part of the test =
+data),=20
+        and the averaged accuracy of the classifiers from the 5 runs is=20
+        reported. </LI></UL>
+      <P>We again applied RIPPER to the connection data. The resulting
+       classifier characterizes the normal patterns of each service in =
+terms of=20
+      the connection features. When using the classifier on the testing =
+data,=20
+      the percentage of misclassifications on each <EM>tcpdump</EM> data =
+set is=20
+      reported. Here a misclassification is the situation where the the=20
+      classifier predicts a destination service (according to the =
+connection=20
+      features) that is different from the actual. This =
+misclassification rate=20
+      should be very low for normal connection data and high for =
+intrusion data.=20
+      The intuition behind this classification model is straightforward: =
+when=20
+      intrusions take place, the features (characteristics) of =
+connections to=20
+      certain services, for example, <EM>ftp</EM>, are different from =
+the normal=20
+      traffic patterns (of the same service).=20
+      <P>The results from the first round of experiments, as shown in
+       Table&nbsp;<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#tcpdump_first">4</A>,=20
+      were not very good: the differences in the misclassification rates =
+of the=20
+      normal and intrusion data were small, except for the =
+<EM>inter-LAN</EM>=20
+      traffic of some intrusions. <A name=3D"tcpdump_first">&nbsp;</A>=20
+      <DIV align=3D"CENTER"><A name=3D"185">&nbsp;</A>=20
+      <TABLE border=3D"1" cellpadding=3D"3">
+        <CAPTION><STRONG>Table 4:</STRONG> Misclassification Rate on =
+Normal and=20
+        Intrusion Data. Separate classifiers were trained and tested on=20
+        connection data of each traffic type. "normal" is the 20% data =
+set aside=20
+        from the training data. No intrusion data was used for=20
+        training.</CAPTION>
+        <TBODY>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">&nbsp;</TD>
+          <TD align=3D"CENTER" nowrap=3D"" colspan=3D"3">% =
+misclassification (by=20
+            traffic type)</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">Data</TD>
+          <TD align=3D"CENTER" nowrap=3D"">out-going</TD>
+          <TD align=3D"CENTER" nowrap=3D"">in-coming</TD>
+          <TD align=3D"CENTER" nowrap=3D"">inter-LAN</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">normal</TD>
+          <TD align=3D"CENTER" nowrap=3D"">3.91%</TD>
+          <TD align=3D"CENTER" nowrap=3D"">4.68%</TD>
+          <TD align=3D"CENTER" nowrap=3D"">4%</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">intrusion1</TD>
+          <TD align=3D"CENTER" nowrap=3D"">3.81%</TD>
+          <TD align=3D"CENTER" nowrap=3D"">6.76%</TD>
+          <TD align=3D"CENTER" nowrap=3D"">22.65%</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">intrusion2</TD>
+          <TD align=3D"CENTER" nowrap=3D"">4.76%</TD>
+          <TD align=3D"CENTER" nowrap=3D"">7.47%</TD>
+          <TD align=3D"CENTER" nowrap=3D"">8.7%</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">intrusion3</TD>
+          <TD align=3D"CENTER" nowrap=3D"">3.71%</TD>
+          <TD align=3D"CENTER" nowrap=3D"">13.7%</TD>
+          <TD align=3D"CENTER" =
+nowrap=3D"">7.86%</TD></TR></TBODY></TABLE></DIV><BR>
+      <P>We then redesigned our set of features by adding some =
+continuous and
+       intensity measures into each connection record:=20
+      <UL>
+        <LI> Examining all connections in the past <I>n</I> seconds, and =
+
+        counting the number of: connection establishment errors (e.g.,=20
+        "connection rejected"), all other types of errors (e.g.,=20
+        "disconnected"), connections to designated system services =
+(e.g.,=20
+        <EM>ftp</EM>), connections to user applications, and connections =
+to the=20
+        same service as the current connection;=20
+        <LI> Calculate for the past <I>n</I> seconds, the per-connection =
+average
+         duration and data bytes (on both directions) of all =
+connections, and
+         the same averages of connections to the same service. =
+</LI></UL><A name=3D"tcpdump_second">&nbsp;</A>=20
+      <DIV align=3D"CENTER"><A name=3D"198">&nbsp;</A>=20
+      <TABLE border=3D"1" cellpadding=3D"3">
+        <CAPTION><STRONG>Table 5:</STRONG> Using Temporal-Statistical =
+Measures=20
+        to Improve Classification Accuracy. Here the time interval is 30 =
+
+        seconds.</CAPTION>
+        <TBODY>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">&nbsp;</TD>
+          <TD align=3D"CENTER" nowrap=3D"" colspan=3D"3">% =
+misclassification (by=20
+            traffic type)</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">Data</TD>
+          <TD align=3D"CENTER" nowrap=3D"">out-going</TD>
+          <TD align=3D"CENTER" nowrap=3D"">in-coming</TD>
+          <TD align=3D"CENTER" nowrap=3D"">inter-LAN</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">normal</TD>
+          <TD align=3D"CENTER" nowrap=3D"">0.88%</TD>
+          <TD align=3D"CENTER" nowrap=3D"">0.31%</TD>
+          <TD align=3D"CENTER" nowrap=3D"">1.43%</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">intrusion1</TD>
+          <TD align=3D"CENTER" nowrap=3D"">2.54%</TD>
+          <TD align=3D"CENTER" nowrap=3D"">27.37%</TD>
+          <TD align=3D"CENTER" nowrap=3D"">20.48%</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">intrusion2</TD>
+          <TD align=3D"CENTER" nowrap=3D"">3.04%</TD>
+          <TD align=3D"CENTER" nowrap=3D"">27.42%</TD>
+          <TD align=3D"CENTER" nowrap=3D"">5.63%</TD></TR>
+        <TR valign=3D"TOP">
+          <TD align=3D"LEFT" nowrap=3D"">intrusion3</TD>
+          <TD align=3D"CENTER" nowrap=3D"">2.32%</TD>
+          <TD align=3D"CENTER" nowrap=3D"">42.20%</TD>
+          <TD align=3D"CENTER" =
+nowrap=3D"">6.80%</TD></TR></TBODY></TABLE></DIV><BR>
+      <P>These additional temporal-statistical features provide =
+additional
+       information of the network activity from a continuous =
+perspective, and
+       provide more insight into anomalies. For example, a low rate of =
+error due=20
+      to innocent attempts and network glitches in a short time span is
+       expected, but an excess beyond the (averaged) norm indicates =
+anomalous
+       activity. Table&nbsp;<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#tcpdump_second">5</A>=20
+      shows the improvement of adding these features. Here, using a time =
+
+      interval of 30 seconds (i.e., <I>n</I>=3D30<I>s</I>), we see that =
+the=20
+      misclassification rates on the intrusion data are much higher than =
+the=20
+      normal data, especially for the <EM>in-coming</EM> traffic. The =
+RIPPER=20
+      rule set (the classifier) has just 9 rules and 25 conditions. For =
+example,=20
+      one rule says "if the average number of bytes from source to =
+destination=20
+      (of the connections to the same service) is 0, and the percentage =
+of=20
+      control packets in the current connection is 100%, then the =
+service is=20
+      <EM>auth</EM>".=20
+      <DIV align=3D"CENTER"><A name=3D"time_window">&nbsp;</A><A=20
+      name=3D"206">&nbsp;</A>=20
+      <TABLE>
+        <CAPTION><STRONG>Figure 1:</STRONG> Effects of Window Sizes on=20
+        Misclassification Rates</CAPTION>
+        <TBODY>
+        <TR>
+          <TD><IMG width=3D"397" height=3D"284" src=3D"" td=3D""=20
+      <=3D""></TR></TBODY></TABLE></DIV><BR>
+      <P>To understand the effects of the time intervals on the
+       misclassification rates, we ran the experiments using various =
+time
+       intervals: 5s, 10s, 30s, 60s, and 90s. The effects on the <EM>
+      out-going</EM> and <EM>inter-LAN</EM> traffic were very small. =
+However, as
+       Figure&nbsp;<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#time_window">1</A>=20
+      shows, for the <EM>in-coming</EM> traffic, the misclassification =
+rates on=20
+      the intrusion data increase dramatically as the time interval goes =
+from 5s=20
+      to 30s, then stabilizes or tapers off afterwards.=20
+      <P>
+      <H3><A name=3D"SECTION00022400000000000000">2.2.4 Discussion</A> =
+</H3>We=20
+      learned some important lessons from the experiments on the <EM>
+      tcpdump</EM> data. First, when the collected data is not designed
+       specifically for security purposes or can not be used directly to =
+build a=20
+      detection model, a considerable amount of (iterative) data =
+pre-processing=20
+      is required. This process fundamentally requires a lot of domain=20
+      knowledge, and may not be easily automated. Second, in general, =
+adding=20
+      temporal-statistical features can improve the accuracy of the=20
+      classification model.=20
+      <P>There are also much needed improvements to our current =
+approach: First,=20
+      deciding upon the right set of features is difficult and time =
+consuming.=20
+      For example, many trials were attempted before we came up with the =
+current=20
+      set of features and time intervals. We need useful tools that can =
+provide=20
+      insight into the patterns that may be exhibited in the data. =
+Second, we=20
+      should provide tools that can help administrative staff understand =
+the=20
+      nature of the anomalies.=20
+      <P>
+      <H2><A name=3D"SECTION00023000000000000000">2.3 Combining Multiple =
+
+      Classifiers</A> </H2><A name=3D"combining">&nbsp;</A>The =
+classifiers=20
+      described in this section each models a single aspect of the =
+system=20
+      behavior. They are what we call the base (single level) =
+classifiers.=20
+      Combining evidence from multiple base classifiers that each models =
+
+      different aspect of the target system is likely to improve the=20
+      effectiveness in detecting intrusions. For example, in addition to =
+the=20
+      classifier for network traffic (using <EM>tcpdump</EM> data), we =
+can
+       include the classifiers on the commands issued during the =
+(connection)
+       sessions of well-known services, e.g. <EM>ftp</EM>, =
+<EM>telnet</EM> etc.=20
+      The combined evidence of anomalous traffic patterns and session =
+behavior
+       leads to a more accurate assertion that the network is under =
+attack. A
+       priority in our research plan is to study and experiment with
+       (inductively learned) classification models that combine evidence =
+from
+       multiple (base) detection models. The general approach in =
+learning such a=20
+      meta-detection model can be summarized as follows:=20
+      <UL>
+        <LI> Build base classifiers that each models different aspect of =
+the
+         target system;=20
+        <LI> Formulate the meta learning task: each record in the =
+training data=20
+        is a collection of the evidence (generated at the same time =
+period) from=20
+        the base classifiers; each attribute value in a record is 1 or =
+0, the=20
+        prediction (evidence) from a base classifier that the modeled =
+behavior=20
+        is "normal" or "abnormal" (i.e., it fits the model or not).=20
+        <LI> Apply a learning algorithm to produce the meta classifier. =
+</LI></UL>
+      <P>The meta detection model is actually a hierarchy of detection =
+models.=20
+      At the bottom, the base classifiers take audit data as input and =
+output=20
+      evidence to the meta classifier, which in turn outputs the final=20
+      assertion.=20
+      <P>Our research activities in JAM&nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Stolfo_1997a">SPT+97</A=
+>],=20
+      which focus on the accuracy and efficiency of meta classifiers, =
+will=20
+      contribute significantly to our effort in building meta detection =
+models.=20
+      <P>
+      <H1><A name=3D"SECTION00030000000000000000">3 Mining Patterns from =
+Audit=20
+      Data</A> </H1><A name=3D"algorithms">&nbsp;</A>In order to =
+construct an=20
+      accurate (effective) base classifier, we need to gather a =
+sufficient=20
+      amount of training data and identify a set of meaningful features. =
+Both of=20
+      these tasks require insight into the nature of the audit data, and =
+can be=20
+      very difficult without proper tools and guidelines. In this =
+section we=20
+      describe some algorithms that can address these needs. Here we use =
+the=20
+      term "audit data" to refer to general data streams that have been =
+properly=20
+      processed for detection purposes. An example of such data streams =
+is the=20
+      connection record data extracted from the raw <EM>tcpdump</EM> =
+output.=20
+      <P>
+      <H2><A name=3D"SECTION00031000000000000000">3.1 Association =
+Rules</A>=20
+      </H2><A name=3D"association_rules">&nbsp;</A>The goal of mining =
+association=20
+      rules is to derive multi-feature (attribute) correlations from a =
+database=20
+      table. A simple yet interesting commercial application of the =
+association=20
+      rules algorithm is to determine what items are often purchased =
+together by=20
+      customers, and use that information to arrange store layout. =
+Formally,=20
+      given a set of records, where each record is a set of items, an=20
+      association rule is an expression  <I>X</I> --&gt; <I>Y</I>,=20
+      <I>confidence, support</I> [<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Srikant_1995">SA95</A>]=
+.=20
+      <I>X</I> and <I>Y</I> are subsets of the items in a record,=20
+      <EM>support</EM> is the percentage of records that contain=20
+      <I>X</I>+<I>Y</I>, whereas <EM>confidence</EM> is=20
+      <EM>support(X+Y)/support(X)</EM>. For example, an association rule =
+from=20
+      the shell command history file (which is a stream of commands and =
+their=20
+      arguments) of a user is=20
+      <P align=3D"CENTER"><EM>trn</EM> --&gt; <EM>rec.humor; [0.3, =
+0.1],</EM></P>=20
+      which indicates that 30% of the time when the user invokes =
+<I>trn</I>, he=20
+      or she is reading the news in <I>rec</I>.<I>humor</I>, and reading =
+this=20
+      newsgroup accounts for 10% of the activities recorded in his or =
+her=20
+      command history file. Here 0.3 is the <EM> confidence</EM> and 0.1 =
+is the=20
+      <I>support</I>.=20
+      <P>The motivation for applying the association rules algorithm to =
+audit
+       data are:=20
+      <UL>
+        <LI> Audit data can be formatted into a database table where =
+each row is=20
+        an audit record and each column is a field (system feature) of =
+the audit=20
+        records;=20
+        <LI> There is evidence that program executions and user =
+activities
+         exhibit frequent correlations among system features. For =
+example, one
+         of the reasons that "program policies", which codify the access =
+rights=20
+        of privileged programs, are concise and capable to detect known=20
+        attacks&nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Ko_1994">KFL94</A>]=20
+        is that the intended behavior of a program, e.g., <I>read</I> =
+and=20
+        <I>write</I> files from certain directories with specific =
+permissions,=20
+        is very consistent. These consistent behaviors can be captured =
+in=20
+        association rules;=20
+        <LI> We can continuously merge the rules from a new run to the =
+aggregate=20
+        rule set (of all previous runs). </LI></UL>
+      <P>Our implementation follows the general association rules =
+algorithm, as
+       described in &nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Srikant_Thesis">Sri96</=
+A>].=20
+      <P>
+      <H2><A name=3D"SECTION00032000000000000000">3.2 Frequent =
+Episodes</A>=20
+      </H2><A name=3D"frequent_episodes">&nbsp;</A>While the association =
+rules=20
+      algorithm seeks to find intra- audit record patterns, the frequent =
+
+      episodes algorithm, as described in&nbsp; [<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Mannila_1995">MTV95</A>=
+],=20
+      can be used to discover inter- audit record patterns. A frequent =
+episode=20
+      is a set of events that occur frequently within a time window (of =
+a=20
+      specified length). The events must occur (together) in at least a=20
+      specified minimum frequency, <EM>min_fr</EM>, sliding time window. =
+Events=20
+      in a <I>serial</I> episode must occur in partial order in time; =
+whereas=20
+      for a <I>parallel</I> episode there is no such constraint. For =
+<I>X</I>
+       and <I>Y</I> where <I>X</I>+<I>Y</I> is a frequent episode, =
+<I>X</I>
+       --&gt; <I>Y</I> with=20
+      <EM>confidence</EM>=3D<EM>frequency(X+Y)/frequency(X)</EM> and=20
+      <I>support</I>=3D<I>frequency</I>(<I>X</I>+<I>Y</I>) is called a =
+frequent=20
+      episode rule. An example frequent serial episode rule from the log =
+file of=20
+      a department's Web site is=20
+      <P align=3D"CENTER"><EM>home, research</EM> --&gt; <EM>theory; =
+[0.2, 0.05],=20
+      [30s]</EM></P>which indicates that when the home page and the =
+research=20
+      guide are visited (in that order), in 20% of the cases the theory =
+group's=20
+      page is visited subsequently within the same 30s time window, and =
+this
+       sequence of visits occurs 5% of the total (the 30s) time windows =
+in the=20
+      log file (that is, approximately 5% of all the records).=20
+      <P>We seek to apply the frequent episodes algorithm to analyze =
+audit
+       trails since there is evidence that the sequence information in =
+program=20
+      executions and user commands can be used to build profiles for =
+anomaly=20
+      detection&nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Forrest_1996">FHSL96</A=
+>,<A=20
+      =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Lane_1997">LB97</A>].=20
+      Our implementation followed the description in &nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Mannila_1995">MTV95</A>=
+].=20
+      <P>
+      <H2><A name=3D"SECTION00033000000000000000">3.3 Using the =
+Discovered=20
+      Patterns</A> </H2>The association rules and frequent episodes can =
+be used=20
+      to guide the audit process. We run a program many times and under=20
+      different settings. For each new run, we compute its rule set =
+(that=20
+      consists of both the association rules and the frequent episodes) =
+from the=20
+      audit trail, and update the (existing) aggregate rule sets using =
+the
+       following <EM>merge</EM> process:=20
+      <UL>
+        <LI> For each rule in the new rule set: find a match in the =
+aggregate
+         rule set. A match is defined as the exact matches on both the =
+LHS and
+         RHS of the rules, plus <EM>epsilon</EM> matches (using ranges), =
+on the=20
+        <I>support</I> (or <I>frequency</I>) and <I>confidence</I> =
+values=20
+        <LI>If a match is found, increment the <EM>match_count</EM> of =
+the
+         matched rule in the aggregate rule set. Otherwise, add the new =
+rule and=20
+        initialize its <EM>match_count</EM> to be 1. </LI></UL>
+      <P>When the rule set stabilizes (there are no new rules added), we =
+can
+       stop the data gathering process since we have produced a near =
+complete=20
+      set of audit data for the normal runs. We then <EM>prune</EM> the =
+rule set=20
+      by eliminating the rules with low <EM>match_count</EM>, according =
+to a
+       user-defined threshold on the ratio of <EM>match_count</EM> over =
+the=20
+      total number of audit trails. The system builders can then use the
+       correlation information in this final <EM>profile</EM> rule set =
+to select
+       a subset of the relevant features for the classification tasks. =
+We plan=20
+      to build a support environment to integrate the process of user =
+selection=20
+      of features, computing a classifier (according to the feature =
+set), and=20
+      presenting the performance of the classifier. Such a support =
+system can=20
+      speed up the iterative feature selection process, and help ensure =
+the=20
+      accuracy of a detection model.=20
+      <P>We believe that the discovered patterns from (the extensively =
+gathered)=20
+      audit data can be used directly for anomaly detection. We compute =
+a set of=20
+      association rules and frequent episodes from a new audit trail, =
+and=20
+      compare it with the established <I>profile</I> rule set. Scoring =
+functions=20
+      can be used to evaluate the deviation scores for: missing rules =
+with high=20
+      <I>support</I>, violation (same antecedent but different =
+consequent) of=20
+      rules with high <I>support</I> and <I>confidence</I>, new (unseen) =
+rules,=20
+      and significant changes in <I>support</I> of rules.=20
+      <P>
+      <H3><A name=3D"SECTION00033100000000000000">3.3.1 <EM>tcpdump</EM> =
+Data=20
+      Revisited</A> </H3>We ran some preliminary experiments using our=20
+      association rules and frequent episodes programs on the =
+<EM>tcpdump</EM>=20
+      data that was used in the experiments described in Section&nbsp;<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#tcpdump_experiments">2.=
+2</A>.=20
+      <DIV align=3D"CENTER"><A name=3D"time_window_fe">&nbsp;</A><A=20
+      name=3D"256">&nbsp;</A>=20
+      <TABLE>
+        <CAPTION><STRONG>Figure 2:</STRONG> Effects of Window Sizes on =
+the=20
+        Number of Frequent Episodes.</CAPTION>
+        <TBODY>
+        <TR>
+          <TD><IMG width=3D"397" height=3D"281" src=3D"" td=3D""=20
+      <=3D""></TR></TBODY></TABLE></DIV><BR>
+      <P>We wanted to study how the frequent episodes algorithm can help =
+us
+       determine the time window used in gathering temporal-statistical
+       features. We ran the algorithm on the "normal" <EM>in-coming</EM>
+       connection records (without the temporal-statistical features). =
+We set
+       the program to produce two types of output: <I>raw</I> serial and
+       parallel episodes (no rules were generated) and serial episode =
+rules. For=20
+      <I>raw</I> episodes, we used <EM>min_fr</EM>=3D0.3. And for serial =
+episode=20
+      rules, we used <EM>min_fr</EM>=3D0.1 and <EM>min_conf</EM>=3D0.6 =
+and 0.8. We=20
+      used different time window sizes (<I>win</I>): 2s, 5s, 10s, 15s, =
+30s, 45s,=20
+      60s, 90s, 120s, 150s, and 200s; and recorded the number of =
+frequent=20
+      episodes generated on each <I>win</I>. In Figure&nbsp;<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#time_window_fe">2</A>
+       we see that the number of frequent episodes (<I>raw</I> episodes =
+or
+       serial episode rules) increases sharply as <I>win</I> goes from =
+2s to
+       30s, it then gradually stabilizes (note that by the nature of the
+       frequent episodes algorithm, the number of episodes can only =
+increase as=20
+      <I>win</I> increases). This phenomenon coincides with the trends =
+in
+       Figure&nbsp;<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#time_window">1</A>.=20
+      Note that here we made the particular choice of the parameters =
+(i.e.,=20
+      <EM>min_fr</EM>, <EM>min_conf</EM>) only for the purpose of =
+controlling=20
+      the maximum size of the episode rule set. Different settings =
+exhibited the=20
+      same phenomenon. We conjecture (and will verify with further =
+experiments=20
+      on other data sets) that we can use this technique to analyze data =
+streams=20
+      and automatically discover the most important temporal measure: =
+the time=20
+      window size, i.e., the period of time within which to measure =
+appropriate=20
+      statistical features to maximize classifier accuracy. Intuitively, =
+the=20
+      first requirement of a time window size is that its set of =
+sequence=20
+      patterns is stable, that is, sufficient patterns are captured and =
+noise is=20
+      small.=20
+      <P>We also ran both the association rules and frequent episodes =
+programs
+       on all the <EM>in-coming</EM> connection data, and compared the =
+rule sets
+       from the normal data with the intrusion data. The purpose of this
+       experiment was to determine how these programs can provide =
+insight into=20
+      the (possible) patterns of intrusions. The frequent episodes =
+generated=20
+      were serial episode rules with <I>win</I>=3D30<I>s</I>, =
+<EM>min_fr</EM>=3D0.1=20
+      and <EM>min_conf</EM>=3D0.8. The associations rules were generated =
+using=20
+      <EM>min_support</EM>=3D0.3 and <EM>min_confidence</EM>=3D0.9. We =
+manually
+       examined and compared the rule sets to look for "unique" patterns =
+that=20
+      exist in the intrusion data (but not in the normal data). Here are =
+some=20
+      results:=20
+      <DL>
+        <DT><STRONG>intrusion1:</STRONG>=20
+        <DD>the unique serial rules are related to "ftp-data as the =
+source=20
+        application", for example,=20
+        <BLOCKQUOTE><EM>src_srv</EM> =3D "ftp-data", <EM>src_srv</EM> =
+=3D=20
+          "user-apps" --&gt; <EM>src_srv</EM> =3D "ftp-data"; [0.96, =
+0.11], [30s]=20
+        </BLOCKQUOTE>This rule means: when a connection with a user =
+application=20
+        as the source service follows a connection with =
+<EM>ftp-data</EM>, 96%=20
+        of the cases, a connection with <EM>ftp-data</EM> follows and =
+falls into=20
+        the same time window (30s); and this patterns occur 11% of the =
+time. The=20
+        unique association rules are related to "destination service is =
+a user=20
+        application", for example,=20
+        <BLOCKQUOTE><EM>dst_srv</EM> =3D "user-apps" --&gt; <EM> =
+duration</EM> =3D=20
+          0, <EM>dst_to_src_bytes</EM> =3D 0; [0.9, 0.33] </BLOCKQUOTE>
+        <P>This rule means: when the destination service of a connection =
+is a
+         user application, 90% of the cases, the duration and the number =
+of data=20
+        bytes from the destination to the source are both 0; and this =
+pattern=20
+        occurs 33% of the time.  </P>
+        <DT><STRONG>intrusion2:</STRONG>=20
+        <DD>the results are nearly identical to <I>intrusion</I>1 in =
+terms of
+         the unique serial rules and association rules.=20
+        <DT><STRONG>intrusion3:</STRONG>=20
+        <DD>the unique serial rules are related to "auth as the =
+destination=20
+        service", for example,=20
+        <BLOCKQUOTE><EM>dst_srv</EM> =3D "auth" --&gt; <EM>flag</EM> =3D =
+
+          "unwanted_syn_ack"; [0.82, 0.1], [30s] </BLOCKQUOTE> and=20
+        <BLOCKQUOTE><EM>dst_srv</EM> =3D "auth" --&gt; <EM>dst_srv</EM> =
+=3D=20
+          "user-apps", <EM>dst_srv</EM> =3D "auth"; [0.82, 0.1], [30s] =
+</BLOCKQUOTE>
+        <P>There are a significant number of unique association rules in =
+regard
+         to "smtp is the source application". Many of these rules =
+suggest=20
+        connection error of <EM>smtp</EM>, for example,=20
+        <BLOCKQUOTE><EM>src_srv</EM> =3D "smtp" --&gt; <EM>duration</EM> =
+=3D 0,=20
+          <EM>flag</EM> =3D "unwanted_syn_ack", <EM>dst_srv</EM> =3D =
+"user-apps";=20
+          [1.0, 0.38] </BLOCKQUOTE></DD></DL>
+      <P>These rules may provide hints about the intrusions. For =
+example, the
+       unique (not normal) serial episodes in <I>intrusion</I>1 and=20
+      <I>intrusion</I>2 reveal that there are a large number of =
+<I>ftp</I> data
+       transfer activities; whereas the unique serial episodes in=20
+      <I>intrusion</I>3 suggest that a large number of connections to =
+the=20
+      <I>auth</I> service were attempted.=20
+      <P>
+      <H1><A name=3D"SECTION00040000000000000000">4 Architecture =
+Support</A>=20
+      </H1><A name=3D"architecture">&nbsp;</A>The biggest challenge of =
+using data=20
+      mining approaches in intrusion detection is that it requires a =
+large=20
+      amount of audit data in order to compute the profile rule sets. =
+And the=20
+      fact that we may need to compute a detection model for each =
+resource in a=20
+      target system makes the data mining task daunting. Moreover, this =
+learning=20
+      (mining) process is an integral and continuous part of an =
+intrusion=20
+      detection system because the rule sets used by the detection =
+module may=20
+      not be static over a long period of time. For example, as a new =
+version of=20
+      a system software arrives, we need to update the "normal" profile =
+rules.=20
+      Given that data mining is an expensive process (in time and =
+storage), and=20
+      real-time detection needs to be lightweight to be practical, we =
+can't=20
+      afford to have a monolithic intrusion detection system.=20
+      <DIV align=3D"CENTER"><A =
+name=3D"intrusion_detection_agent">&nbsp;</A><A name=3D"297">&nbsp;</A>=20
+      <TABLE>
+        <CAPTION><STRONG>Figure 3:</STRONG> An Architecture for =
+Agent-Based=20
+        Intrusion Detection System</CAPTION>
+        <TBODY>
+        <TR>
+          <TD><IMG width=3D"455" height=3D"418" src=3D"" td=3D""=20
+      <=3D""></TR></TBODY></TABLE></DIV><BR>
+      <P>We propose a system architecture, as shown in Figure&nbsp;<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#intrusion_detection_age=
+nt">3</A>,=20
+      that includes two kinds of intelligent agents: the learning agents =
+and the=20
+      detection agents. A learning agent, which may reside in a server =
+machine=20
+      for its computing power, is responsible for computing and =
+maintaining the=20
+      rule sets for programs and users. It produces both the base =
+detection=20
+      models and the meta detection models. The task of a learning =
+agent, to=20
+      compute accurate models from very large amount of audit data, is =
+an=20
+      example of the "scale-up" problem in machine learning. We expect =
+that our
+       research in agent-based meta-learning systems&nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Stolfo_1997a">SPT+97</A=
+>]=20
+      will contribute significantly to the implementation of the =
+learning
+       agents. Briefly, we are studying how to partition and dispatch =
+data to a=20
+      host of machines to compute classifiers in parallel, and re-import =
+the=20
+      remotely learned classifiers and combine an accurate (final)
+       meta-classifier, a hierarchy of classifiers&nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Chan_1993">CS93</A>].=20
+      <P>A detection agent is generic and extensible. It is equipped =
+with a
+       (learned and periodically updated) rule set (i.e., a classifier) =
+from the=20
+      remote learning agent. Its detection engine "executes" the =
+classifier on=20
+      the input audit data, and outputs evidence of intrusions. The main =
+
+      difference between a base detection agent and the meta detection =
+agent is:=20
+      the former uses preprocessed audit data as input while the later =
+uses the=20
+      evidence from all the base detection agents. The base detection =
+agents and=20
+      the meta detection agent need not be running on the same host. For =
+
+      example, in a network environment, a meta agent can combine =
+reports from=20
+      (base) detection agents running on each host, and make the final =
+assertion=20
+      on the state of the network.=20
+      <P>The main advantages of such a system architecture are:=20
+      <UL>
+        <LI> It is easy to construct an intrusion detection system as a
+         compositional hierarchy of generic detection agents.=20
+        <LI> The detection agents are lightweight since they can =
+function
+         independently from the heavyweight learning agents, in time and =
+locale,=20
+        so long as it is already equipped with the rule sets.=20
+        <LI> A detection agent can report new instances of intrusions by
+         transmitting the audit records to the learning agent, which can =
+in turn=20
+        compute an updated classifier to detect such intrusions, and =
+dispatch=20
+        them to all detection agents. Interestingly, the capability to =
+derive=20
+        and disseminate anti-virus codes faster than the virus can =
+spread is=20
+        also considered a key requirement for anti-virus =
+systems&nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Kephart">KSSW97</A>].=20
+        </LI></UL>
+      <H1><A name=3D"SECTION00050000000000000000">5 Conclusion and =
+Future Work</A>=20
+      </H1><A name=3D"conclusion">&nbsp;</A>In this paper we proposed a =
+systemic=20
+      framework that employs data mining techniques for intrusion =
+detection.=20
+      This framework consists of classification, association rules, and=20
+      frequence episodes programs, that can be used to (automatically) =
+construct=20
+      detection models. The experiments on <EM>sendmail</EM> system call =
+data=20
+      and network <EM>tcpdump</EM> data demonstrated the effectiveness =
+of=20
+      classification models in detecting anomalies. The accuracy of the=20
+      detection models depends on sufficient training data and the right =
+feature=20
+      set. We suggested that the association rules and frequent episodes =
+
+      algorithms can be used to compute the consistent patterns from =
+audit data.=20
+      These frequent patterns form an abstract summary of an audit =
+trail, and
+       therefore can be used to: guide the audit data gathering process; =
+provide=20
+      help for feature selection; and discover patterns of intrusions.=20
+      Preliminary experiments of using these algorithms on the =
+<EM>tcpdump</EM>=20
+      data showed promising results.=20
+      <P>We are in the initial stages of our research, much remains to =
+be done
+       including the following tasks:=20
+      <UL>
+        <LI> Implement a support environment for system builders to =
+iteratively=20
+        drive the integrated process of pattern discovering, system =
+feature=20
+        selection, and construction and evaluation of detection models;=20
+        <LI> Investigate the methods and benefits of combining multiple =
+simple=20
+        detection models. We need to use multiple audit data streams for
+         experiments;=20
+        <LI> Implement a prototype agent-based intrusion detection =
+system.=20
+        JAM&nbsp;[<A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#Stolfo_1997a">SPT+97</A=
+>]=20
+        already provides a base infrastructure;=20
+        <LI> Evaluate our approach using extensive audit data sets, some =
+of
+         which is presently under construction at Rome Labs. </LI></UL>
+      <H1><A name=3D"SECTION00060000000000000000">6 Acknowledgments</A> =
+</H1>We=20
+      are very grateful to Stephanie Forrest and Steven A. Hofmeyr, both =
+of=20
+      University of New Mexico, for providing us with the system call =
+data and=20
+      explaining the details of their experiments. We also wish to thank =
+Philip=20
+      K. Chan of Florida Institute of Technology and David Wei Fan of =
+Columbia=20
+      University for their helpful advice.=20
+      <H2><A name=3D"SECTIONREF">References</A> </H2>
+      <DL compact=3D"">
+        <P></P>
+        <DT><A name=3D"Atkins_1996"><STRONG>ABH+96</STRONG></A>=20
+        <DD>D. Atkins, P. Buis, C. Hare, R. Kelley, C. Nachenberg, A. B. =
+Nelson,=20
+         P. Phillips, T. Ritchey, and W. Steen. <BR><EM>Internet =
+Security=20
+        Professional Reference</EM>. <BR>New Riders Publishing, 1996.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Bellovin"><STRONG>Bel89</STRONG></A>=20
+        <DD>S. M. Bellovin. <BR>Security problems in the tcp/ip protocol =
+suite.=20
+        <BR><EM>Computer Communication Review</EM>, 19(2):32-48, April =
+1989.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Cohen_1995"><STRONG>Coh95</STRONG></A>=20
+        <DD>W. W. Cohen. <BR>Fast effective rule induction. <BR>In =
+<EM>Machine=20
+        Learning: the 12th International Conference</EM>, Lake  Taho, =
+CA, 1995.=20
+        Morgan Kaufmann.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Chan_1993"><STRONG>CS93</STRONG></A>=20
+        <DD>P. K. Chan and S. J. Stolfo. <BR>Toward parallel and =
+distributed=20
+        learning by meta-learning. <BR>In <EM>AAAI Workshop in Knowledge =
+
+        Discovery in Databases</EM>, pages  227-240, 1993.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Forrest_1996"><STRONG>FHSL96</STRONG></A>=20
+        <DD>S. Forrest, S. A. Hofmeyr, A. Somayaji, and T. A. Longstaff. =
+<BR>A=20
+        sense of self for unix processes. <BR>In <EM>Proceedings of the =
+1996=20
+        IEEE Symposium on Security and  Privacy</EM>, pages 120-128, Los =
+
+        Alamitos, CA, 1996. IEEE Computer Society  Press.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Fayyad_1996b"><STRONG>FPSS96</STRONG></A>=20
+        <DD>U. Fayyad, G. Piatetsky-Shapiro, and P. Smyth. <BR>The KDD =
+process=20
+        of extracting useful knowledge from volumes of  data.=20
+        <BR><EM>Communications of the ACM</EM>, 39(11):27-34, November =
+1996.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Frank_1994"><STRONG>Fra94</STRONG></A>=20
+        <DD>J. Frank. <BR>Artificial intelligence and intrusion =
+detection:=20
+        Current and future  directions. <BR>In <EM>Proceedings of the =
+17th=20
+        National Computer Security  Conference</EM>, October 1994.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Hlms_90"><STRONG>HLMS90</STRONG></A>=20
+        <DD>R. Heady, G. Luger, A. Maccabe, and M. Servilla. <BR>The=20
+        architecture of a network level intrusion detection system.=20
+        <BR>Technical report, Computer Science Department, University of =
+New =20
+        Mexico, August 1990.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Ilgun_1995"><STRONG>IKP95</STRONG></A>=20
+        <DD>K. Ilgun, R. A. Kemmerer, and P. A. Porras. <BR>State =
+transition=20
+        analysis: A rule-based intrusion detection approach. =
+<BR><EM>IEEE=20
+        Transactions on Software Engineering</EM>, 21(3):181-199,  March =
+1995.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Jacobson_1989"><STRONG>JLM89</STRONG></A>=20
+        <DD>V. Jacobson, C. Leres, and S. McCanne. <BR>tcpdump. =
+<BR>available=20
+        via anonymous ftp to ftp.ee.lbl.gov, June 1989.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Ko_1994"><STRONG>KFL94</STRONG></A>=20
+        <DD>C. Ko, G. Fink, and K. Levitt. <BR>Automated detection of=20
+        vulnerabilities in privileged programs by  execution monitoring. =
+<BR>In=20
+        <EM>Proceedings of the 10th Annual Computer Security =
+Applications =20
+        Conference</EM>, pages 134-144, December 1994.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Kumar_1995"><STRONG>KS95</STRONG></A>=20
+        <DD>S. Kumar and E. H. Spafford. <BR>A software architecture to =
+support=20
+        misuse intrusion detection. <BR>In <EM>Proceedings of the 18th =
+National=20
+        Information Security  Conference</EM>, pages 194-204, 1995.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Kephart"><STRONG>KSSW97</STRONG></A>=20
+        <DD>J. O. Kephart, G. B. Sorkin, M. Swimmer, and S. R. White.=20
+        <BR>Blueprint for a computer immune system. <BR>Technical =
+report, IBM T.=20
+        J. Watson Research Center, Yorktown Heights,  New York, 1997.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Lane_1997"><STRONG>LB97</STRONG></A>=20
+        <DD>T. Lane and C. E. Brodley. <BR>Sequence matching and =
+learning in=20
+        anomaly detection for computer  security. <BR>In <EM>AAAI =
+Workshop: AI=20
+        Approaches to Fraud Detection and Risk  Management</EM>, pages =
+43-49.=20
+        AAAI Press, July 1997.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Lee_1997"><STRONG>LSC97</STRONG></A>=20
+        <DD>W. Lee, S. J. Stolfo, and P. K. Chan. <BR>Learning patterns =
+from=20
+        unix process execution traces for intrusion  detection. <BR>In =
+<EM>AAAI=20
+        Workshop: AI Approaches to Fraud Detection and Risk  =
+Management</EM>,=20
+        pages 50-56. AAAI Press, July 1997.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Lunt_1992"><STRONG>LTG+92</STRONG></A>=20
+        <DD>T. Lunt, A. Tamaru, F. Gilham, R. Jagannathan, P. Neumann, =
+H.=20
+        Javitz,  A. Valdes, and T. Garvey. <BR>A real-time intrusion =
+detection=20
+        expert system (IDES) - final  technical report. <BR>Technical =
+report,=20
+        Computer Science Laboratory, SRI International,  Menlo Park, =
+California,=20
+        February 1992.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Mannila_1995"><STRONG>MTV95</STRONG></A>=20
+        <DD>H. Mannila, H. Toivonen, and A. I. Verkamo. <BR>Discovering =
+frequent=20
+        episodes in sequences. <BR>In <EM>Proceedings of the 1st =
+International=20
+        Conference on Knowledge  Discovery in Databases and Data =
+Mining</EM>,=20
+        Montreal, Canada, August 1995.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Paxon_97"><STRONG>Pax97</STRONG></A>=20
+        <DD>Vern Paxon. <BR>End-to-end internet packet dynamics. <BR>In=20
+        <EM>Proceedings of SIGCOMM '97</EM>, September 1997.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Paxon_98"><STRONG>Pax98</STRONG></A>=20
+        <DD>Vern Paxon. <BR>Bro: A system for detecting network =
+intruders in=20
+        real-time. <BR>In <EM>Proceedings of the 7th USENIX Security=20
+        Symposium</EM>, San  Antonio, TX, 1998.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Porras_98"><STRONG>PV98</STRONG></A>=20
+        <DD>Phillip A. Porras and Alfonso Valdes. <BR>Live traffic =
+analysis of=20
+        tcp/ip gateways. <BR>In <EM>Proceedings of the Internet Society=20
+        Symposium on Network and  Distributed System Security</EM>, =
+March 1998.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Srikant_1995"><STRONG>SA95</STRONG></A>=20
+        <DD>R. Srikant and R. Agrawal. <BR>Mining generalized =
+association rules.=20
+        <BR>In <EM>Proceedings of the 21st VLDB Conference</EM>, Zurich, =
+=20
+        Switzerland, 1995.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Stolfo_1997a"><STRONG>SPT+97</STRONG></A>=20
+        <DD>S. J. Stolfo, A. L. Prodromidis, S. Tselepis, W. Lee, D. W. =
+Fan, and=20
+        P. K.  Chan. <BR>Jam: Java agents for meta-learning over =
+distributed=20
+        databases. <BR>In <EM>Proceedings of the 3rd International =
+Conference on=20
+        Knowledge  Discovery and Data Mining</EM>, pages 74-81, Newport =
+Beach,=20
+        CA, August 1997.  AAAI Press.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Srikant_Thesis"><STRONG>Sri96</STRONG></A>=20
+        <DD>R. Srikant. <BR><EM>Fast Algorithms for Mining Association =
+Rules and=20
+        Sequential  Patterns</EM>. <BR>PhD thesis, University of =
+Wisconsin -=20
+        Madison, 1996.=20
+        <P>
+        <P></P>
+        <DT><A name=3D"Stevens_1994"><STRONG>Ste84</STRONG></A>=20
+        <DD>W. R. Stevens. <BR><EM>TCP/IP Illustrated</EM>, volume 1.=20
+        <BR>Addison-Wesley Publishing Company, 1984. </DD></DL>
+      <HR>
+
+      <H2><A name=3D"SECTIONNOTE">Footnotes</A> </H2>
+      <DL>
+        <DT><A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#TITLE">1</A><A=20
+        name=3D"5">...Detection</A>=20
+        <DD>This research is supported in part by grants from DARPA=20
+        (F30602-96-1-0311) and NSF (IRI-96-32225 and CDA-96-25374)=20
+        <P></P>
+        <DT><A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/full_papers/lee/lee_html/lee.html#shootout">2</A><A=20
+        name=3D"152">...intrusions</A>=20
+        <DD>Note that, to this date, the organizers of the shootout have =
+not=20
+        provided us with information, i.e., the times, targets, and =
+actions, of=20
+        these network intrusions.=20
+        <P></P></DD></DL><BR><!-- END OF PAGE CONTENTS --> =
+</TD></TR></TBODY></TABLE>
+<HR>
+
+<TABLE width=3D"100%" align=3D"LEFT" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0">
+  <TBODY>
+  <TR>
+    <TD width=3D"40%" valign=3D"TOP">
+      <ADDRESS><FONT size=3D"2">This paper was originally published in =
+the
+       Proceedings of the 7th USENIX Security Symposium, January 26-29, =
+1998,
+       San Antonio, Texas </FONT><BR><!-- EDIT THE DATE AND YOUR LOGIN =
+NAME BELOW -->=20
+      <FONT size=3D"2">Last changed: 12 April 2002 =
+aw</FONT><BR></ADDRESS></TD>
+    <TD width=3D"60%" align=3D"RIGHT" valign=3D"TOP"><!-- Upwards =
+Navigation Table -->=20
+      <TABLE border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+        <TBODY>
+        <TR>
+          <TD><A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/technical.html"><IMG=20
+            width=3D"16" height=3D"16" align=3D"top" alt=3D"" =
+src=3D"https://www.usenix.org/legacy/graphics/blueball.gif"=20
+            border=3D"0"><FONT size=3D"1">Technical =
+Program</FONT></A><BR><A =
+href=3D"https://www.usenix.org/legacy/publications/library/proceedings/se=
+c98/full_papers/index.html"><IMG=20
+            width=3D"16" height=3D"16" align=3D"top" alt=3D"" =
+src=3D"https://www.usenix.org/legacy/graphics/blueball.gif"=20
+            border=3D"0"><FONT size=3D"1">Conference =
+Index</FONT></A><BR><A =
+href=3D"https://www.usenix.org/legacy/index.html"><IMG=20
+            width=3D"16" height=3D"16" align=3D"top" alt=3D"" =
+src=3D"https://www.usenix.org/legacy/graphics/blueball.gif"=20
+            border=3D"0"><FONT size=3D"1">USENIX=20
+      home</FONT></A><BR></TD></TR></TBODY></TABLE><!-- End of Upwards =
+Navigation Table -->=20
+    </TD></TR></TBODY></TABLE>
+<SCRIPT =
+type=3D"text/javascript">window.NREUM||(NREUM=3D{});NREUM.info=3D{"beacon=
+":"bam.nr-data.net","licenseKey":"d823139095","applicationID":"509444","t=
+ransactionName":"YVJVZksCXkEEVhIMWFgYdlFNCl9cSkAVAFlfT2hAXAdZQABWEhZoWFhD=
+bV8MRVwB","queueTime":0,"applicationTime":98,"ttGuid":"","agentToken":"",=
+"atts":"TRVWEAMYTU8=3D","errorBeacon":"bam.nr-data.net","agent":"js-agent=
+.newrelic.com\/nr-632.min.js"}</SCRIPT>
+ </BODY></HTML>
+
+------=_NextPart_000_0000_01D0DFF7.CDD07010
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://www.usenix.org/graphics/new_usenix.jpg
+
+/9j/4AAQSkZJRgABAQEASABIAAD/4QCARXhpZgAATU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUA
+AAABAAAASgEbAAUAAAABAAAAUgEoAAMAAAABAAIAAIdpAAQAAAABAAAAWgAAAAAAAABIAAAAAQAA
+AEgAAAABAAKgAgAEAAAAAQAAASCgAwAEAAAAAQAAAOgAAAAA/9sAQwACAQECAQECAgECAgICAgMF
+AwMDAwMGBAQDBQcGBwcHBgYGBwgLCQcICggGBgkNCQoLCwwMDAcJDQ4NDA4LDAwL/9sAQwECAgID
+AgMFAwMFCwgGCAsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsL
+CwsL/8AAEQgA6AEgAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//E
+ALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJ
+ChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeI
+iYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq
+8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQH
+BQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJico
+KSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZ
+mqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/a
+AAwDAQACEQMRAD8A/fyiiigAooooAKKKKACiiigAooooAKKKKACkZdw5paKAM/ULOUAtaSuh9jWL
+ceLL/QpP+JjAtzB3ZPlcf0P6V1LLuHNZup6YtyhBUHI5oAraT49sNbU/YpR5i/ejcbXX8P8ACr6a
+wjng5rz7xd4KZP32n7opYzlXQ4ZazvDXxFljvVsfEhEdznbHL0Wb2Po386APWUvUfoaeJga5Kz8Q
+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
+
+------=_NextPart_000_0000_01D0DFF7.CDD07010
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.usenix.org/legacy/graphics/dot_clear.gif
+
+R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==
+
+------=_NextPart_000_0000_01D0DFF7.CDD07010
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.usenix.org/legacy/graphics/smalltop.gif
+
+R0lGODlhWAIGAMQfAP////z39/jt7ffq6ubm5vfe3vHd3e/X1+jFxczMzOS7u7+/v6ioqNORkdGO
+joqKisFkZH19fbxXV3JycrpSUrlQUGZmZlxcXK84OK0yMqQeHqMYGJ8QEJwICJkAAP///yH5BAEA
+AB8ALAAAAABYAgYAAAWi4AKMy2WdaKqubOu+cCzPdG3feK7vfO//wKBwSCwafaOkcvQ4Op/QqHRK
+rVqv2KyWt0yiLoSueEwum5eLrXrNbrvf8Lh81W1aIue8fo+e+/+AgYKDhFJKaRYTfIuMZQyFkJGS
+k5SVW0kmF10aHRsGAZyeAAUSHKYZCiMUHaamGgYVHhoDIwgcHhAADR4eDgIbnQcAARkeGEsTlsrL
+zM3OziMhADs=
+
+------=_NextPart_000_0000_01D0DFF7.CDD07010
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.usenix.org/legacy/graphics/smallleft.gif
+
+R0lGODlhZgAXANUAAP////z39/ju7vXl5ebm5vHd3e/W1uzPz+fExMzMzOW9veK2tt6trdulpdqi
+otecnKioqNWUlNGMjM6Dg5mZmcx+fsl4eMdzc4qKisRra4KCgsFjY319fb1aWnJycrpSUrdJSWZm
+ZrRDQ7E7O685OVxcXKwwMKkpKaciIqMZGZ8QEJwICJkAAP4BAgAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAUUAC0ALAAAAABmABcAAAb/wFCI
+ACgaVayVIYBcDQQnllS6UgBAU2pBJHUUEdIOQCKdAKKsBgDM2hiNJaF8Tq/b75z3MblsChhTJEgs
+YlgsIhcZFwJcLCBfYWNlAB1SFgAXXXoAGHeen3Ylm0VNfUkCDlIiABNSH1dSD28jU1ZsYmQsFQAR
+Uo+0KwWjoMSgHqMApUynqSyvvc6wLLJGtFJut5K6AApSJwVIJgHDxeV1GsjKfs1i0K+G1EXWLCkC
+2bm7Ain0DyssGcg6mRsYgkI6PstWoHLFiyG8WVkeHIiErwgXFR+kqBkFgeBAg6PUnQKUBMGCEycu
+GcqwgIGCAPMcKfCHS8ouABaS7AuGDIBH/3MJDipJ+MSEFBVWjBiaUq/R0Qg0td1skIXEOGQ/y4Hc
+JJLnABJSUiBQmoUeIxYqwLIYgaTmNgAG/DHsmbVY0JAImwgD8DXsWGkfIkyIEIBLilxT3N4sIJfF
+iavk6n66yzVvkr181aoY+7AaPQP7EkstQnWKkp5xJHuirKfrAAYmTEwQYJSQtHgAaKkIkEl0RUxJ
+UGhErXq1UFMKH1B0GAvibjbL39JKUYnFBbrF77B+01WActvQCjX3vBuAWtsVByARAW0VMgrZ7Wzf
+M9TP93aROstDK4CVb5sAkJTBAf6oMAB28c0xHylSHCCAP8n5oo140zjXH4HR7ZJThaElNaCKBwkq
+iIw1JhiCAgDfrdCBcG1Ig4giA1zUX27RmcHFCgcA0IgEPREQohwLArBAY1LwaMAgWSwgjWkHyFhE
+Lm5NsMxjAFQwFzId/RikkGypYIIXX3SpwgkbfbCCCmiqkIIBGaEwI2gtQhMBAv4AtIYKK5jQUxEC
+JbjlnoAGKuigRvSZ3Z+EJqoooQmkVhyii0YqKUeHTmrppYAS0ImjBAUBADs=
+
+------=_NextPart_000_0000_01D0DFF7.CDD07010
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.usenix.org/legacy/graphics/smallhome.gif
+
+R0lGODlhJgAQALMAAP////b29uzs7OPj49nZ2czMzLy8vLOzs6mpqZmZmYyMjIODg3l5eXBwcGZm
+Zv4BAiH5BAUUAA8ALAAAAAAmABAAAASH0MlJq70468277wtDhd9HHNRZeurUrtvrtEtBFCJzKEWx
+ILeGJBG0EASEJCGAWgQUjkOgoQAUeExFIBEtdI0oF6pgmAgQVcmBIFGdEwUAOIV6ndJR9gxl3UEr
+MioHAkINAQt4a20oAmEXgSgNBAMHAwgOiXoqCQAGB14liEIdVCIwp6ipqiURADs=
+
+------=_NextPart_000_0000_01D0DFF7.CDD07010
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.usenix.org/legacy/graphics/divider16.gif
+
+R0lGODlhEQAQAKIGAP///+Pj48zMzJmZmXBwcGZmZgAAAAAAACH5BAEAAAYALAAAAAARABAAAAMb
+WLrc/jDKSasitoiAqQAARw2gYA1mpq5s6zIJADs=
+
+------=_NextPart_000_0000_01D0DFF7.CDD07010
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.usenix.org/legacy/graphics/smallabout.gif
+
+R0lGODlhWgAQALMAAP////b29uzs7OPj49nZ2czMzLy8vLOzs6mpqZmZmYyMjIODg3l5eXBwcGZm
+Zv4BAiH5BAUUAA8ALAAAAABaABAAAAT/0MlJq7046827/2AojmRpnk6jUMSBTsxCMYzEIEciLUqv
+yIsGpSFzKBoqoW21SQCYjtZLciBQDq5EIJEoCAktrI4wUBqtjmcU3dhyBoXCRDrSVapXV8HF4s8D
+ZRIKaGptCA4FBhwJBk5KYAYEXhJdLUIMfAo6Tlg1VGhUegNFEnRzWnJnEmoOWgigGgIyAYdRXg1w
+DggDDA0FVgoAn7pPRxN4xy64AJNRAmAEMgQ/AXKDq1AFAGYZCQI9ZKV8Tg4CdgwAPMIOeMEWyKET
+3gFffqUrwQfXaUwNAgL2MEjCYiBdlEwB+E0otq7duiuwGg0BeLDCNErMCDEZgCAYlAsKchJOyEXn
+gBxJghIGE/LLyEN5ATwxEFDDk4MBYwJepAJAowMDqQwI4GbRHgJ6ZA4AFbJAwJ5vEv4NGGClTSKb
+UXoScOOgWpVUBJ5BivKxJT8tSvylAqHCGIUeQ9wuucDgR4UeWDvkncK3r9+/gAMLHswhAgA7
+
+------=_NextPart_000_0000_01D0DFF7.CDD07010
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.usenix.org/legacy/graphics/smallevents.gif
+
+R0lGODlhKgAQALMAAP////b29uzs7OPj49nZ2czMzLy8vLOzs6mpqZmZmYyMjIODg3l5eXBwcGZm
+Zv4BAiH5BAUUAA8ALAAAAAAqABAAAASf0MlJq7046827/9uijMoCnhNBHGyCoutbuV48IYqkuAlR
+NI5dovBzFASshsGXIQhUhEWBIBkoDgUHVgs4KAKIRsGqKBiCzQNlAWAsqALEEKClOmIHeyGQAGJs
+EwMIBTkABV45eRJ4dg0HAgEMf2oUCQMDEkgUindqnIGUFk5QZw18EgkABlucMQpdBmYGA5IyDQq1
+GAsmQTkyv8DBwjIRADs=
+
+------=_NextPart_000_0000_01D0DFF7.CDD07010
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.usenix.org/legacy/graphics/smallmembership.gif
+
+R0lGODlhTgAQALMAAP////b29uzs7OPj49nZ2czMzLy8vLOzs6mpqZmZmYyMjIODg3l5eXBwcGZm
+Zv4BAiH5BAUUAA8ALAAAAABOABAAAAT/0MlJq7046827/2AojmR5LUvVKCPAki7FCIxIBNURh3v7
+TonRLShpDHofJO9nIhwEk0NilyAUGo5EAuFcFAhEQOF7KB6ckgPjcDVYJYDEl6jOItzXDaARCBod
+MWwOgkNTYAZQgAgOCwGLBI+LAAQGCAUGDi9iCQY4gCxWDUYFeoNQUp8OAghyAA5oqQquqQ5uDC5V
+BICYDgV9WLGzMbBTpXwIA3AsYgcKoGXBymkFsgcICik7DU8BNTGy0rAKnhmzOmEsAtASsN/CL2C3
+TEoDZe7h0IIZC7MzEzFTDBCCdg9QATbQOh0QSOuSgQHeWIBLRUDdF2AlVtTgwMBZhY4YGSl45GBF
+wUYTKFNOgKWyJUqWLmOKWHASQwQAOw==
+
+------=_NextPart_000_0000_01D0DFF7.CDD07010
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.usenix.org/legacy/graphics/on/smallpublications.gif
+
+R0lGODlhTQAQALMAAGZmZllZWVNTU0xMTEBAQDMzMyYmJiAgIBkZGRMTEwwMDAAAAP4BAgAAAAAA
+AAAAACH5BAUUAAwALAAAAABNABAAAAT/EMhJq7046827/2AojmR5DWiQDYu1DEACg4GimudSFAqC
+sS7YLETA/VqAwKJoAVZeROPGCdABCqpAAcAqHBAzKGFG+BbLiC3AoNhdbwbEgTwopCWD7/Ao4amg
+QCwCAAQLg1B3BlsCgz4ChmsyMFBtXIgKBIUCShKDGiwICAY3gC1UCVuIqRhQdhMvBAkTBgcAd1UD
+Sgeen0gUpZYTd6pUfV+tPhIvrn0+t4AHCwZTvq8wBaa+Nri2WFB9stzMuIISd89DxTkWbAkI2Ypz
+yjCJbQYGA/YK+F2pMGxeanWbNyDNLRG5KAgYwAtDgCEBBgW4wcjCwxsOE0rZyLGjx48gBENiiAAA
+Ow==
+
+------=_NextPart_000_0000_01D0DFF7.CDD07010
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.usenix.org/legacy/graphics/smallstudents.gif
+
+R0lGODlhNgAQALMAAP////b29uzs7OPj49nZ2czMzLy8vLOzs6mpqZmZmYyMjIODg3l5eXBwcGZm
+Zv4BAiH5BAUUAA8ALAAAAAA2ABAAAATV0MlJq7046827/2DILcehhMQhcsagJAaqrlpwUomXek3e
+CYXGJAEoMRK3A0OSKBAEswQh6EAido1BKtEwTDGLQGCGACgUjZ3D7DAUHFnV4T13EAIJ4oIxKCgW
+BTE3Fw0HAQQOCgATamYNAEJ2KgIITYuNJ2oFeJEZC2aKjDOgixI7AAUmmaOrEoUCAUsVDZGPDKGm
+MZ8KDGySDlAUmL8UAzMUYakCOQ0BgUcABARsm3NjVQAGdcMHUAiBLbKzZ523EwsLFeYUDbwa7omD
+NPP09fb3+BURADs=
+
+------=_NextPart_000_0000_01D0DFF7.CDD07010
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.usenix.org/legacy/graphics/smallright16.gif
+
+R0lGODlhIgAQAJEAAP///2ZmZv4BAgAAACH5BAAAAAAALAAAAAAiABAAAAIajI+piwAMo3qyQmqz
+3rz7D4biSJbmiaZqWAAAOw==
+
+------=_NextPart_000_0000_01D0DFF7.CDD07010
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.usenix.org/legacy/graphics/blueball.gif
+
+R0lGODlhEAAQAPcAAP//////zP//mf//Zv//M///AP/M///MzP/Mmf/MZv/MM//MAP+Z//+ZzP+Z
+mf+ZZv+ZM/+ZAP9m//9mzP9mmf9mZv9mM/9mAP8z//8zzP8zmf8zZv8zM/8zAP8A//8AzP8Amf8A
+Zv8AM/8AAMz//8z/zMz/mcz/Zsz/M8z/AMzM/8zMzMzMmczMZszMM8zMAMyZ/8yZzMyZmcyZZsyZ
+M8yZAMxm/8xmzMxmmcxmZsxmM8xmAMwz/8wzzMwzmcwzZswzM8wzAMwA/8wAzMwAmcwAZswAM8wA
+AJn//5n/zJn/mZn/Zpn/M5n/AJnM/5nMzJnMmZnMZpnMM5nMAJmZ/5mZzJmZmZmZZpmZM5mZAJlm
+/5lmzJlmmZlmZplmM5lmAJkz/5kzzJkzmZkzZpkzM5kzAJkA/5kAzJkAmZkAZpkAM5kAAGb//2b/
+zGb/mWb/Zmb/M2b/AGbM/2bMzGbMmWbMZmbMM2bMAGaZ/2aZzGaZmWaZZmaZM2aZAGZm/2ZmzGZm
+mWZmZmZmM2ZmAGYz/2YzzGYzmWYzZmYzM2YzAGYA/2YAzGYAmWYAZmYAM2YAADP//zP/zDP/mTP/
+ZjP/MzP/ADPM/zPMzDPMmTPMZjPMMzPMADOZ/zOZzDOZmTOZZjOZMzOZADNm/zNmzDNmmTNmZjNm
+MzNmADMz/zMzzDMzmTMzZjMzMzMzADMA/zMAzDMAmTMAZjMAMzMAAAD//wD/zAD/mQD/ZgD/MwD/
+AADM/wDMzADMmQDMZgDMMwDMAACZ/wCZzACZmQCZZgCZMwCZAABm/wBmzABmmQBmZgBmMwBmAAAz
+/wAzzAAzmQAzZgAzMwAzAAAA/wAAzAAAmQAAZgAAMwAAAPb29gAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH+BFRYHgQAIfkECQgAAAAs
+AAAAABAAEAAACIEAAQgcSLAgQWxUUqlSlYoKNoMAsFVRRa1ixSoPC06sUsVixT8ZB6b6s2IFRYup
+VoQEoOpPlT8eqalSSfCkx2rVVpUkmComNWvWdK4gCPMmUEA7B64oSq0a0FVWkgrEtiKhqpxVrERd
+SXWF1q9RaR4sSZbsyoHYupZMC7Gt27cCAwIAOw==
+
+------=_NextPart_000_0000_01D0DFF7.CDD07010--
